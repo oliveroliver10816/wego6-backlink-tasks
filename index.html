@@ -1,587 +1,588 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow">
-<title>WEGO6 — backlink tasks</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23141B22'/%3E%3Cpath d='M12 20l8-8M11 15a4 4 0 015.6 0M15.4 17a4 4 0 015.6 0' stroke='%2307C6AF' stroke-width='2.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WEGO6 — backlink tasks, wave 4</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0f0e'/><path d='M38 62l24-24M42 34h20v20' stroke='%235eead4' stroke-width='9' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 <style>
-:root{--bg:#0F1419;--panel:#171F27;--line:#27333D;--ink:#E9F0F3;--ink2:#94A6B2;--teal:#07C6AF;
---amber:#FFB454;--blue:#5AA9FF;--red:#FF7A6B;--purple:#B98CFF;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:1000px;margin:0 auto;padding:0 clamp(1rem,4vw,2rem)}
-header.top{border-bottom:1px solid var(--line);padding:2.4rem 0 1.8rem;
-background:radial-gradient(700px 240px at 12% -30%,rgba(7,198,175,.15),transparent 65%)}
-h1{font-size:clamp(1.7rem,1.2rem+2.2vw,2.6rem);margin:0 0 .5rem;letter-spacing:-.03em}
-.sub{color:var(--ink2);margin:0;max-width:64ch}
-h2{font-size:1.25rem;margin:2.6rem 0 .3rem;letter-spacing:-.015em}
-.h2note{color:var(--ink2);font-size:.9rem;margin:.2rem 0 1rem;max-width:70ch}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;margin:1rem 0}
-.card.urgent{border-left:4px solid var(--red)} .card.info{border-left:4px solid var(--teal)}
-.card h3{margin:0 0 .5rem;font-size:1rem} .card p,.card li{color:#D3E0E6}
-ol,ul{padding-left:1.15rem;margin:.4rem 0} li{margin:.32rem 0}
-code{font-family:var(--mono);font-size:.82rem;color:#C3DAE2;background:#1D2831;padding:.15rem .45rem;border-radius:5px;word-break:break-all}
-.post{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.35rem;margin:1.2rem 0}
-.post header{display:flex;gap:1rem;align-items:flex-start;margin-bottom:.8rem}
-.pn{flex:0 0 auto;width:32px;height:32px;border-radius:8px;background:#22303C;color:var(--teal);
-font-family:var(--mono);font-weight:700;display:grid;place-items:center}
-.post h3{margin:0 0 .3rem;font-size:1.04rem;color:#fff} .post .meta{margin:0;color:var(--ink2);font-size:.82rem}
-.plat{font-family:var(--mono);font-size:.72rem;padding:.2rem .5rem;border-radius:5px;background:#22303C}
-.plat.gs{background:rgba(7,198,175,.16);color:var(--teal)}
-.plat.md{background:rgba(185,140,255,.16);color:var(--purple)}
-.plat.tb{background:rgba(90,169,255,.15);color:var(--blue)}
-.val{font-family:var(--mono);font-size:.68rem} .val.df{color:var(--teal)} .val.idx{color:var(--ink2)}
-.kv{display:grid;gap:.45rem;margin:.8rem 0}
-.kv div{display:flex;gap:.7rem;align-items:baseline;flex-wrap:wrap}
-.kv span{font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);min-width:170px}
-.copybox{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0 .5rem}
-.copybox button{background:var(--teal);color:#04302A;border:0;border-radius:7px;padding:.5rem .95rem;font-weight:700;font-size:.84rem;cursor:pointer}
-.copybox button.alt{background:#22303C;color:#CFE0E8} .copybox button.done{background:var(--blue)}
-.titleline{display:none}
-.post pre{background:#0C1116;border:1px solid var(--line);border-radius:9px;padding:1rem;overflow-x:auto;
-font-family:var(--mono);font-size:.79rem;line-height:1.6;color:#CBDCE4;white-space:pre-wrap;word-break:break-word;max-height:300px;overflow-y:auto;margin:0}
-footer{border-top:1px solid var(--line);margin-top:2.6rem;padding:1.5rem 0 3rem;color:var(--ink2);font-size:.85rem}
-</style></head><body>
-<header class="top"><div class="wrap">
-<h1>WEGO6 — backlink tasks</h1>
-<p class="sub">One fix first, then 13 posts ready to paste. Everything is written — you only
-need to publish it. Work down the page; each post has a Copy button.</p>
-</div></header>
+  :root{--bg:#0b0f0e;--panel:#111817;--line:#1e2c2a;--ink:#e8f2f0;--dim:#8ba39f;--dimmer:#6b8783;--go:#5eead4;--warn:#fbbf24}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:28px 18px 100px}
+  h1{font-size:clamp(24px,4.4vw,34px);margin:0 0 6px;letter-spacing:-.02em}
+  .sub{color:var(--dim);margin:0 0 26px;max-width:66ch}
+  h2{font-size:18px;margin:34px 0 10px}
+  .panel{border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:16px 18px;margin:0 0 16px}
+  .steps{color:var(--dim);margin:0;padding-left:20px}
+  .steps li{margin:0 0 6px}
+  .steps b{color:var(--ink)}
+  .card{border:1px solid var(--line);background:var(--panel);border-radius:12px;margin:0 0 14px;overflow:hidden}
+  .top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:13px 16px;border-bottom:1px solid var(--line)}
+  .num{font:600 13px/1 ui-monospace,Menlo,Consolas,monospace;background:#16221f;border:1px solid var(--line);
+    color:var(--go);border-radius:6px;padding:6px 8px}
+  .t{font-weight:600;flex:1;min-width:200px}
+  .tag{font-size:11.5px;padding:3px 8px;border-radius:6px;border:1px solid var(--line);color:var(--dim);white-space:nowrap}
+  .tag.df{color:var(--go);border-color:#1f4b45}
+  .body{padding:14px 16px}
+  .kv{display:grid;grid-template-columns:130px 1fr;gap:6px 12px;font-size:14px;margin:0 0 12px}
+  .k{color:var(--dimmer)}
+  .v{word-break:break-all;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13.5px}
+  .v.anchor{font-family:inherit;font-size:14.5px;color:var(--warn)}
+  .btns{display:flex;gap:8px;flex-wrap:wrap}
+  button{font:inherit;background:#0d1413;border:1px solid var(--line);color:var(--dim);border-radius:8px;
+    padding:8px 12px;cursor:pointer;font-size:13.5px}
+  button:hover{border-color:var(--go);color:var(--go)}
+  details{margin-top:12px}
+  summary{cursor:pointer;color:var(--dimmer);font-size:13.5px}
+  pre{white-space:pre-wrap;background:#0a100f;border:1px solid var(--line);border-radius:8px;padding:12px;
+    font-size:13px;line-height:1.55;overflow-x:auto;color:#cfe0dd}
+  .done{color:var(--go)}
+</style>
+</head>
+<body>
 <div class="wrap">
+  <h1>WEGO6 — backlink tasks, wave 4</h1>
+  <p class="sub">Eight new articles. They point at different pages from the last three waves —
+  these are the pages Google is already showing us for, so a link on them is worth more than a
+  link on a page nobody has reached yet. Same routine as before: publish, then put the finished
+  address in the sheet.</p>
 
-<h2>Do this first — one broken link</h2>
-<div class="card urgent">
-<h3>A Substack post published the address as plain text</h3>
-<p><code>https://open.substack.com/pub/pank932875/p/waarom-de-duur-van-een-kuur-meer</code></p>
-<p>The web address is on the page but it is not clickable, so it counts for nothing.</p>
-<ol>
-<li>Open it in <b>Substack on a desktop computer</b> — the phone app cannot add links.</li>
-<li>Click <b>Edit</b>, find the sentence with the address, and delete the address itself.</li>
-<li><b>Select the words</b> you want to be the link — highlight them with the mouse.
-<b>This is the step that gets missed: the link button does nothing unless text is selected.</b></li>
-<li>Press <b>Ctrl + K</b>, paste <code>https://buy-wego6.com/nl/kopen/</code>, press Enter.</li>
-<li>The words turn blue. Publish again.</li>
-</ol>
-</div>
+  <div class="panel">
+    <h2 style="margin-top:0">Wave 3 — all done, thank you</h2>
+    <p style="margin:0;color:var(--dim)">All thirteen links were checked and every one is live:
+    <span class="done">4 Google Sites</span>, 3 Medium, 3 Tumblr and 3 telegra.ph, plus the broken
+    Substack link from wave 1, which is now a proper link. Nothing from that batch needs redoing.
+    Only the Pinterest job is still open.</p>
+  </div>
 
-<h2>1 · Google Sites — the most valuable ones</h2>
-<p class="h2note">These pass the most ranking power because they sit on a google.com address.
-Do these before anything else. Each one becomes its own little page.</p>
-<div class="card info">
-<h3>How to make one</h3>
-<ol>
-<li>Go to <b>sites.google.com</b> and sign in. Click the <b>+</b> to start a blank site.</li>
-<li>Put the title at the top, then paste the article body underneath as normal text.</li>
-<li><b>To add the link:</b> select the words shown as the anchor text, then click the
-link icon in the toolbar (or Ctrl+K) and paste the address.</li>
-<li>Click <b>Publish</b> (top right). For the web address, use the <b>site name</b> given with each post.</li>
-<li>Set it to <b>Anyone can find and view</b>, then copy the finished address into the sheet.</li>
-</ol>
-</div>
-<article class="post" id="p1">
- <header><span class="pn">1</span><div>
-  <h3>WEGO 6 und Abnehmen: Wo eine tägliche Kapsel wirklich steht</h3>
-  <p class="meta"><span class="plat gs">Google Sites</span> <span class="val df">DOFOLLOW</span>
-  · DE · author <b>Bettina Kohlhaas</b> · 628 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/de/abnehmen/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>eine tägliche Kapsel zuerst in den bestehenden Tagesablauf einzuordnen</code></div><div><span>Site name to use</span><code>wego6-abnehmen-einordnung</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>WEGO 6 und Abnehmen: Wo eine tägliche Kapsel wirklich steht</p>
- <pre data-body>*Bettina Kohlhaas*
+  <div class="panel">
+    <h2 style="margin-top:0">How to publish each one</h2>
+    <ol class="steps">
+      <li><b>Google Sites</b> — go to sites.google.com, sign in, click <b>+</b> for a blank site.
+        Paste the title at the top and the article below it. Then select the anchor words shown on
+        the card, press <b>Ctrl + K</b>, paste the address, press Enter. Publish with the site name
+        given, set it to <b>Anyone can find and view</b>.</li>
+      <li><b>rentry.co</b> — open rentry.co, paste the article, set your own edit code, publish.
+        The link is already written in the text, so nothing extra is needed.</li>
+      <li><b>Tumblr</b> — new text post, paste the title as the title and the article as the body.
+        Select the anchor words, press <b>Ctrl + K</b>, paste the address.</li>
+      <li>Copy the finished address into the sheet, on the row for that profile.</li>
+    </ol>
+    <p style="margin:12px 0 0;color:var(--dimmer);font-size:13.5px">One thing to check every time:
+    after publishing, look at the sentence with the link. The words must be <b>blue and
+    clickable</b>. If the address shows as plain text instead, the link does not count at all —
+    that happened once in wave 1 and cost us two days.</p>
+  </div>
 
-Wer „wego 6 abnehmen&quot; eingibt, will im Grunde eine einzige Sache wissen: Was soll diese Kapsel im Alltag eigentlich leisten? Die nüchterne Antwort vorweg — WEGO 6 ist ein Nahrungsergänzungsmittel, eine Kapsel mit 387 mg pro Tag, und damit ein kleiner fester Baustein neben den Dingen, die eine Umstellung tatsächlich tragen: Essen, Bewegung, Schlaf und Routine.
+    <div class="card">
+    <div class="top">
+      <span class="num">1</span>
+      <span class="t">Zelf nagaan of een supplement in de winkel ligt: vier stappen</span>
+      <span class="tag">NL</span>
+      <span class="tag">Google Sites</span>
+      <span class="tag df">DOFOLLOW</span>
+    </div>
+    <div class="body">
+      <div class="kv">
+        <span class="k">Write as</span><span class="v" style="font-family:inherit">Ilse Bosman</span>
+        <span class="k">Link goes to</span><span class="v">https://buy-wego6.com/nl/apotheek/</span>
+        <span class="k">Anchor text</span><span class="v anchor">de officiële bestelroute van de fabrikant nagaan</span>
+        <span class="k">Site name</span><span class="v">wego6-apotheek-check</span>
+      </div>
+      <div class="btns">
+        <button data-i="0" data-copy="title">Copy title</button>
+        <button data-i="0" data-copy="article">Copy article</button>
+        <button data-i="0" data-copy="anchor">Copy anchor</button>
+        <button data-i="0" data-copy="target">Copy link</button>
+      </div>
+      <details><summary>read the article</summary><pre># Zelf nagaan of een supplement in de winkel ligt: vier stappen
 
-## Was hinter der Suchanfrage steckt
+*Door Ilse Bosman*
 
-„Abnehmen&quot; ist in einem Suchfeld selten wörtlich gemeint. Dahinter steht fast immer die Frage, ob ein Präparat den Teil übernimmt, der schwerfällt — das Durchhalten. Das tut kein Nahrungsergänzungsmittel, und jede Seite, die etwas anderes andeutet, würde ich sofort wieder schließen. Was ein Präparat leisten kann, ist etwas viel Unspektakuläreres: ein täglicher Fixpunkt zu sein, an dem eine Routine hängt. Unterschätzen sollte man das nicht — die meisten Vorhaben scheitern nicht an der Idee, sondern an Tag elf.
+Bijna iedereen die een supplement tegenkomt, stelt eerst dezelfde vraag: ligt dit gewoon bij de apotheek of de drogist? Het is een verstandige vraag, want een schap in de buurt betekent dat je de verpakking kunt vasthouden en de achterkant kunt lezen voordat je iets beslist. Alleen is die vraag online zelden in één zoekopdracht te beantwoorden, en dat komt niet doordat het antwoord verborgen wordt. Het assortiment verschilt per keten, soms zelfs per filiaal, en een deel van de supplementen komt tegenwoordig niet meer via winkels binnen.
 
-## Was auf der Packung steht
+## Waarom een zoekmachine hier het verkeerde gereedschap is
 
-Bei WEGO 6 sind die Angaben überschaubar, und genau das macht den Check einfach: 387 mg pro Kapsel, eine Kapsel täglich, 30 Kapseln pro Packung, also exakt ein Monat. Die Kapselhülle ist vegan. Der Hersteller nennt Apfelessig und Zink konkret und beschreibt den Rest als pflanzliche Inhaltsstoffe und Aminosäuren. Die vollständige Liste steht auf der Packung.
+Een zoekmachine laat pagina&#x27;s zien die over een product gaan. Wat er vandaag in een filiaal op voorraad ligt, staat in het voorraadsysteem van die winkel en nergens anders. Zoekresultaten met een winkelnaam erin betekenen dus niets over de werkelijke verkrijgbaarheid; het zijn vaak pagina&#x27;s van derden die de naam van de keten alleen gebruiken omdat mensen daarop zoeken.
 
-Wichtiger als die einzelnen Namen ist, dass sie überhaupt einzeln dastehen. Taucht eine Rezeptur nur als „Kräuterkomplex&quot; ohne jede Mengenangabe auf, kann niemand nachvollziehen, wovon wie viel enthalten ist — und dann ist jede Diskussion über die Zusammensetzung ohnehin müßig.
+## Vier stappen die het in een paar minuten uitsluiten
 
-## Die vier Gewohnheiten, die den Alltag prägen
+**Eén: zoek in de webshop van de keten zelf.** Ga naar de site van de drogist of apotheek en gebruik hun eigen zoekveld. Alleen dat systeem weet wat er in het assortiment zit. Komt het product er niet in voor, dan heb je je antwoord voor die keten.
 
-Wer an seiner Ernährung arbeitet, landet früher oder später bei vier Dingen, die nichts kosten und in keiner Kapsel stecken. Erstens eine Mahlzeitenstruktur, an die man sich auch an einem chaotischen Dienstag halten kann — drei geplante Mahlzeiten sind leichter durchzuhalten als fünf improvisierte. Zweitens Trinken: ein Glas Wasser zu jeder Mahlzeit ist banal und wird trotzdem ständig vergessen. Drittens Bewegung, die keinen Termin braucht — der Weg zum Bäcker zu Fuß hält sich länger als jeder Fitnessvertrag. Und viertens Schlaf, der einzige Punkt auf dieser Liste, an dem fast alle sparen und den kaum jemand als Teil des Themas begreift.
+**Twee: bel het filiaal.** Eén telefoontje kost een minuut. Medewerkers kijken in hetzelfde systeem en zeggen gewoon of iets besteld kan worden.
 
-Diese vier Punkte sind der Rahmen. Alles andere, auch eine Kapsel, ist Beiwerk in diesem Rahmen — nie umgekehrt.
+**Drie: kijk of de fabrikant zelf levert.** Bij veel supplementen is dat het enige verkooppunt. Het loont om vooraf [de officiële bestelroute van de fabrikant nagaan](https://buy-wego6.com/nl/apotheek/), want als een merk uitsluitend via de eigen site verkoopt, blijft elke winkelzoekopdracht leeg — hoe vaak je hem ook anders formuleert.
 
-## Wie eine Kapsel in eine bestehende Routine passt
-
-Der praktische Trick ist unspektakulär: Die Kapsel bekommt keinen eigenen Termin, sondern hängt sich an etwas, das ohnehin jeden Tag passiert. Bei mir ist das die erste Tasse Kaffee, bei anderen das Zähneputzen. Die Packung steht sichtbar dort, wo dieser Moment stattfindet, nicht hinten im Schrank. Wer erst überlegen muss, wo die Packung liegt, hört nach zwei Wochen auf.
-
-Deshalb lohnt es sich, [eine tägliche Kapsel zuerst in den bestehenden Tagesablauf einzuordnen](https://buy-wego6.com/de/abnehmen/), bevor überhaupt bestellt wird. Wenn Sie den Moment nicht benennen können, an dem die Kapsel genommen wird, fehlt nicht das Produkt, sondern der Platz dafür.
-
-## Was ich vor dem Kauf notieren würde
-
-Drei Dinge, jeweils zehn Sekunden Aufwand. Das Startdatum, damit später klar ist, wie lange etwas schon läuft. Den Ankermoment beziehungsweise die feste Uhrzeit, damit die Einnahme nicht jeden Tag neu verhandelt wird. Und die Bestellbestätigung in einem eigenen Ordner im Postfach, weil jede spätere Rückfrage genau darauf zurückgreift.
-
-Dazu eine Erwartungshaltung, die zum Produkt passt: Eine Kapsel am Tag ist eine Ergänzung zu einer bewussten Ernährung, kein Ersatz dafür. Wer mit dieser Einordnung startet, ist ehrlich zu sich selbst — und bleibt erfahrungsgemäß länger dran als jemand, der von einem Präparat erwartet, die eigentliche Arbeit zu übernehmen.
-
-Und wer unsicher ist, ob ein Nahrungsergänzungsmittel für ihn infrage kommt — etwa in der Schwangerschaft, in der Stillzeit oder bei regelmäßiger Einnahme von Medikamenten —, klärt das vorher in der Arztpraxis. Das ist keine Formalie, sondern schlicht der kürzeste Weg zu einer klaren Antwort.</pre></article><article class="post" id="p2">
- <header><span class="pn">2</span><div>
-  <h3>WEGO 6 and Boots: How to Find Out Where a Supplement Is Sold</h3>
-  <p class="meta"><span class="plat gs">Google Sites</span> <span class="val df">DOFOLLOW</span>
-  · UK · author <b>Neil Braithwaite</b> · 697 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/uk/boots/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>straight to the source that issues the product</code></div><div><span>Site name to use</span><code>wego6-boots-question</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>WEGO 6 and Boots: How to Find Out Where a Supplement Is Sold</p>
- <pre data-body>*Neil Braithwaite*
-
-If you have typed &quot;wego 6 boots&quot; into a search box, you are asking something very practical: can I pick this up from a familiar high-street chemist, or does it come from somewhere else entirely? Nobody writing a page like this one can tell you what any chain has on its shelves this week — but you can settle it yourself in about two minutes, and the method works for every supplement you will ever look up.
-
-## Why the chemist is the first instinct
-
-British shoppers have been trained by decades of high-street pharmacy to check a familiar shelf first, and for most everyday things that instinct is exactly right. You know the aisle, you can pick the box up, and you can read the panel on the back before deciding anything.
-
-Supplements have partly moved away from that model. A good number are now issued directly by the company behind them and sold from a single website rather than distributed to retailers. That is not a warning sign in itself; it changes where you should look rather than whether you should look at all.
-
-## The two-minute way to settle a stock question
-
-Three checks, in this order. Start with the retailer&#x27;s own website search rather than a general search engine, because only the retailer&#x27;s system knows its current range. Most large chains also put a branch stock checker on the product page, which is the closest thing to a definitive answer a screen will give you. If a product does not appear in that system at all, you have your answer for that retailer.
-
-Second, ring your nearest branch. It takes a minute, and staff will tell you plainly what is on the system. Third, check whether the maker sells direct. Almost every supplement brand states its own route to purchase somewhere on its site, and if a brand sells only from its own address, no shop search will ever produce a result however many times you rephrase it.
-
-## Why the maker&#x27;s own listing is the useful place to land
-
-When a product is issued directly, the label detail, the pack structure and the terms of sale all sit in one place instead of being summarised second-hand by a dozen other pages of unknown age. That is the practical argument for going [straight to the source that issues the product](https://buy-wego6.com/uk/boots/) instead of assembling an answer out of search snippets, forum threads and screenshots.
-
-It also removes a real hazard of buying online. Where a listing has been copied — photography lifted, the name altered by a character or two — the copy always lives somewhere other than the brand&#x27;s own address, so landing on that address takes the whole category of problem off the table.
-
-## What to read on the label before you order
-
-WEGO 6 is a supplement in capsule form. Each capsule declares 387 mg, the intake is one capsule a day, and a pack holds thirty capsules, which is what makes one pack equal one month. The capsule shell is vegan.
-
-The maker names apple cider vinegar and zinc specifically, and describes the rest as plant-based ingredients and amino acids. The full list is on the pack. That individual naming is what I look for on any product. A formula described only as a &quot;proprietary blend&quot;, with no quantity attached to anything in it, cannot be assessed by anybody — including by the people writing about it.
-
-## Buying without a counter
-
-The counter does two things you lose online: it hands you the box to read, and it gives you somebody to ask. Both are replaceable if you are deliberate. Read the ingredient panel on screen before ordering rather than after. Decide honestly whether a daily capsule fits your day, because a routine you cannot picture yourself keeping is the usual reason a pack ends up in a drawer. Keep the order confirmation email in a folder, since every later question refers back to it.
-
-If you are pregnant, breastfeeding, taking regular medication or sensitive to caffeine, ask your GP before starting any supplement. That is the one part of the high-street experience genuinely worth recreating.</pre></article><article class="post" id="p3">
- <header><span class="pn">3</span><div>
-  <h3>WEGO6 review: waar een beoordeling aan moet voldoen</h3>
-  <p class="meta"><span class="plat gs">Google Sites</span> <span class="val df">DOFOLLOW</span>
-  · NL · author <b>Sanne Verhoeven</b> · 666 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/nl/review/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>wat een beoordeling minimaal moet laten zien</code></div><div><span>Site name to use</span><code>wego6-review-checklist</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>WEGO6 review: waar een beoordeling aan moet voldoen</p>
- <pre data-body>*Sanne Verhoeven*
-
-Wie op &quot;wego6 review&quot; zoekt, wil één ding: weten of dit product de moeite waard is voordat er geld naartoe gaat. Het eerlijke antwoord is dat geen enkele review dat voor je kan beslissen — wat een review wél kan, is de feiten op tafel leggen die op het etiket staan en de vragen benoemen waarmee je elk oordeel, ook dit oordeel, kunt wegen.
+**Vier: let op kopieën.** Waar een product goed loopt, duiken listings op met overgenomen foto&#x27;s en een naam die één letter afwijkt. Die staan per definitie ergens anders dan op het adres van de fabrikant. Wie meteen bij de bron begint, loopt dat risico niet.
 
 ## Wat er feitelijk op de verpakking staat
 
-WEGO 6 is een voedingssupplement in capsulevorm. Per capsule wordt 387 mg opgegeven, de inname is één capsule per dag, en een pot bevat dertig capsules — precies één maand dus. De capsulehuls is plantaardig.
+WEGO 6 is een voedingssupplement in capsulevorm. Per capsule wordt 387 mg opgegeven, de inname is één capsule per dag en een pot bevat dertig capsules — precies één maand. De capsulehuls is plantaardig. De fabrikant noemt appelazijn en zink met naam en omschrijft de rest als plantaardige ingrediënten en aminozuren; de volledige lijst staat op de verpakking.
 
-De fabrikant noemt appelazijn en zink met naam en omschrijft de rest als plantaardige ingrediënten en aminozuren. De volledige lijst staat op de verpakking. Dat ze afzonderlijk vermeld staan is belangrijker dan welke namen het precies zijn. Een formule die alleen als &quot;kruidencomplex&quot; op de verpakking staat, zonder hoeveelheid per ingrediënt, is voor niemand te beoordelen — ook niet voor degene die er een stuk over schrijft.
+Dat ingrediënten afzonderlijk vermeld staan is belangrijker dan welke namen het precies zijn. Een formule die alleen als &quot;complex&quot; op de verpakking staat, zonder hoeveelheid per ingrediënt, valt door niemand te beoordelen.
 
-## Waarom de meeste reviews niets toevoegen
+## De inname, zoals hij is opgeschreven
 
-Zoek een willekeurig supplement en je vindt tien pagina&#x27;s die elkaar bijna woordelijk herhalen. Ze openen met een verhaal, komen halverwege bij een conclusie uit en noemen op geen enkel moment de dosering per capsule of de volledige ingrediëntenlijst. Zo&#x27;n tekst is geen beoordeling maar een samenvatting van andere samenvattingen.
+De fabrikant beschrijft één capsule per dag, heel doorslikken, met twee grote glazen water, ongeveer vijftien tot dertig minuten voor of tijdens een maaltijd. De aangegeven dagelijkse hoeveelheid mag niet worden overschreden. Dat is geen detail: wie zich niet aan een vast moment houdt, stopt er in de praktijk binnen twee weken mee.
 
-Een cijfer of een oordeel zonder onderbouwing zegt al helemaal niets. Als er niet bij staat waaraan gemeten is, kun je er niets mee vergelijken en is het puur decoratie. Let ook op teksten die vooral over jóu gaan — je frustratie, je vorige poging, je haast — in plaats van over het product. Dat is een stemming die verkocht wordt, geen informatie.
+## Tot slot
 
-## Vier vragen die een beoordeling moet beantwoorden
+Een voedingssupplement is een aanvulling op wat je eet en hoe je je dag inricht, geen vervanging daarvan. Het wordt niet aanbevolen voor kinderen en zwangere vrouwen. Wie borstvoeding geeft, medicijnen gebruikt of een aandoening heeft, legt het gebruik eerst voor aan de huisarts. Dat is de kortste route naar een antwoord dat over jouw situatie gaat.</pre></details>
+    </div>
+  </div>
+  <div class="card">
+    <div class="top">
+      <span class="num">2</span>
+      <span class="t">„In der Apotheke erhältlich“ — was das bei Nahrungsergänzung bedeutet</span>
+      <span class="tag">DE</span>
+      <span class="tag">Google Sites</span>
+      <span class="tag df">DOFOLLOW</span>
+    </div>
+    <div class="body">
+      <div class="kv">
+        <span class="k">Write as</span><span class="v" style="font-family:inherit">Marlene Kirchhoff</span>
+        <span class="k">Link goes to</span><span class="v">https://buy-wego6.com/de/apotheke/</span>
+        <span class="k">Anchor text</span><span class="v anchor">beim Hersteller selbst nachsehen, wie der Bezug geregelt ist</span>
+        <span class="k">Site name</span><span class="v">wego6-apotheke-erklaert</span>
+      </div>
+      <div class="btns">
+        <button data-i="1" data-copy="title">Copy title</button>
+        <button data-i="1" data-copy="article">Copy article</button>
+        <button data-i="1" data-copy="anchor">Copy anchor</button>
+        <button data-i="1" data-copy="target">Copy link</button>
+      </div>
+      <details><summary>read the article</summary><pre># „In der Apotheke erhältlich“ — was das bei Nahrungsergänzung bedeutet
 
-Deze vier vragen filteren in dertig seconden het meeste weg. Eén: staat de dosering per capsule er, en per hoeveel — per capsule, per portie, per dag? Twee: staat de volledige ingrediëntenlijst er, of alleen een handvol namen die goed klinken? Drie: wordt er iets gezegd over wie het beter niet neemt en over de inname in de praktijk? Vier: is te achterhalen waar de informatie vandaan komt en welk bedrijf achter het product zit?
+*Von Marlene Kirchhoff*
 
-Ontbreken er twee of meer, dan lees je marketing. Dat hoeft niet erg te zijn, maar het is iets anders dan een beoordeling en het verdient niet hetzelfde gewicht in je besluit.
+Der Satz steht auf unzähligen Produktseiten, und er wird fast immer falsch gelesen. Bei Nahrungsergänzungsmitteln sagt „in der Apotheke erhältlich“ nichts über eine behördliche Prüfung aus und ist auch keine Auszeichnung. Er beschreibt nur, dass ein Betrieb das Produkt in sein Sortiment aufgenommen hat.
 
-## Zelf de proef op de som nemen
+## Nahrungsergänzung ist rechtlich ein Lebensmittel
 
-De sluitende controle kost nog eens twee minuten: leg wat je in een review leest naast wat de fabrikant zelf op zijn eigen pagina vermeldt. Kloppen de dosering, het aantal capsules per pot en de ingrediëntenlijst met elkaar, dan heeft de schrijver in ieder geval naar het product gekeken. Klopt het niet, dan weet je genoeg over de rest van de tekst.
+Das ist der Punkt, an dem die meisten Missverständnisse entstehen. Nahrungsergänzungsmittel sind Lebensmittel, keine Arzneimittel. Sie sind damit frei verkäuflich und unterliegen keiner Apothekenpflicht. Ob ein Präparat in einer Apotheke steht, ist deshalb eine Sortimentsentscheidung wie in jedem anderen Handel auch — jede Apotheke trifft sie selbst.
 
-Om die reden is het nuttig om vooraf vast te leggen [wat een beoordeling minimaal moet laten zien](https://buy-wego6.com/nl/review/) en pas daarna te gaan lezen. Andersom laat je je oordeel vormen door wie het luidst schrijft.
+Umgekehrt heißt „nicht in der Apotheke“ nicht, dass mit einem Produkt etwas nicht stimmt. Es heißt, dass es über einen anderen Weg vertrieben wird.
 
-## Wat je noteert voordat je bestelt
+## Warum es eine PZN gibt — und was sie nicht beweist
 
-Drie dingen, telkens een paar seconden werk. De dosering en het aantal capsules per pot, zodat je later niet hoeft te gokken hoe lang een pot meegaat. Het moment van de dag waarop je de capsule neemt, gekoppeld aan iets wat je toch al elke dag doet — koffie, tandenpoetsen — want een inname zonder vast moment verdwijnt binnen twee weken. En de orderbevestiging in een aparte map in je mailbox, omdat elke latere vraag daarnaar terugverwijst.
+Die Pharmazentralnummer ist eine Bestellnummer für den Warenverkehr. Sie wird vergeben, damit ein Artikel im System bestellbar ist. Sie ist keine Zulassung und keine Qualitätsaussage. Ein Präparat ohne PZN ist nicht schlechter, es läuft nur nicht über diesen Bestellweg.
 
-Tot slot de nuchtere kant: een supplement is een aanvulling op wat je eet en hoe je je dag inricht, geen vervanging daarvan. Wie zwanger is, borstvoeding geeft, medicijnen gebruikt of gevoelig is voor cafeïne, legt het gebruik eerst even voor aan de huisarts. Dat is de kortste route naar een antwoord dat op jouw situatie slaat in plaats van op het gemiddelde van een reviewpagina.</pre></article><article class="post" id="p4">
- <header><span class="pn">4</span><div>
-  <h3>WEGO 6 Kapseln: Was auf dem Etikett steht</h3>
-  <p class="meta"><span class="plat gs">Google Sites</span> <span class="val df">DOFOLLOW</span>
-  · DE · author <b>Tobias Reinke</b> · 498 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/de/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>die Herstellerangaben direkt an der Quelle nachlesen</code></div><div><span>Site name to use</span><code>wego6-kapseln-etikett</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>WEGO 6 Kapseln: Was auf dem Etikett steht</p>
- <pre data-body>*Tobias Reinke*
+## Drei Wege, auf denen ein Präparat zu Ihnen kommt
 
-Wer „wego 6 kapseln&quot; sucht, will keine Geschichte, sondern die Angaben: 387 mg pro Kapsel, eine Kapsel am Tag, 30 Kapseln in der Packung — also genau ein Monat — und eine vegane Kapselhülle. Diese Seite listet auf, was auf dem Etikett steht, was die sieben Zutaten sind und wie man Herstellerangaben nachprüft, ohne sich auf die Meinung Dritter verlassen zu müssen.
+Erstens der klassische Handel: Apotheke vor Ort oder Drogeriemarkt, mit dem Vorteil, die Packung in die Hand nehmen zu können. Zweitens die Versandapotheke, die dieselbe Ware liefert, aber ebenfalls nur führt, was sie gelistet hat. Drittens der Direktvertrieb, bei dem der Hersteller ausschließlich über die eigene Seite verkauft.
 
-## Die Kapsel in Zahlen
+Der dritte Weg ist bei Nahrungsergänzung inzwischen verbreitet, und er verändert nur, wo man nachsieht — nicht, ob man nachsehen sollte. Praktisch heißt das: [beim Hersteller selbst nachsehen, wie der Bezug geregelt ist](https://buy-wego6.com/de/apotheke/), statt die Antwort aus Suchergebnissen, Foren und Screenshots zusammenzusetzen, deren Alter niemand kennt.
 
-Vier Angaben genügen, um ein Kapselprodukt einzuordnen: Menge pro Kapsel, Anzahl der Kapseln, vorgesehene Tagesdosis und daraus die Reichweite einer Packung. Bei WEGO 6 sind das 387 mg, 30 Stück, eine Kapsel täglich — und damit ein Monat pro Packung.
+## Was auf der Packung nachzulesen ist
 
-Diese Rechnung sollte man bei jedem Präparat einmal selbst aufmachen, bevor irgendetwas anderes bewertet wird. Sie ist der schnellste Ehrlichkeitscheck, den es gibt: Wenn die Packungsgröße nicht zur angegebenen Einnahme passt, stimmt entweder die Beschreibung nicht oder es fehlt eine Angabe. Beides sollte man wissen, bevor man bestellt.
+WEGO 6 ist ein Nahrungsergänzungsmittel in Kapselform. Angegeben sind 387 mg pro Kapsel, eine Kapsel täglich und dreißig Kapseln pro Packung, also genau ein Monat. Die Kapselhülle ist vegan. Der Hersteller nennt Apfelessig und Zink konkret und beschreibt den Rest als pflanzliche Inhaltsstoffe und Aminosäuren; die vollständige Liste steht auf der Packung.
 
-## Die sieben Zutaten im Klartext
+Wichtiger als die einzelnen Namen ist, dass sie überhaupt einzeln dastehen. Wo eine Rezeptur nur als „Komplex“ ohne Mengenangaben auftaucht, kann niemand nachvollziehen, wovon wie viel enthalten ist.
 
-Auf dem Etikett stehen sieben Bestandteile, jeder einzeln benannt. Apfelessigpulver ist getrockneter Apfelessig in Pulverform. Zink ist ein Spurenelement und steht in der Nährwerttabelle üblicherweise mit Prozentangabe zum Referenzwert.
+## Die Einnahme, wie sie dokumentiert ist
 
-Entscheidend ist nicht, wie exotisch eine Liste klingt, sondern dass jeder Bestandteil einzeln aufgeführt ist. „Kräuterkomplex&quot; oder „Spezialrezeptur&quot; ohne Mengenangaben ist keine Zutatenliste, sondern ein Platzhalter — und lässt sich von niemandem beurteilen.
+Eine Kapsel täglich, unzerkaut, mit zwei großen Gläsern Wasser, etwa 15 bis 30 Minuten vor oder direkt zu einer Mahlzeit. Die angegebene empfohlene Tagesmenge darf nicht überschritten werden.
 
-## Einnahme im Alltag
+## Zum Schluss
 
-Eine Kapsel täglich klingt nach der einfachsten Sache der Welt und ist trotzdem der Punkt, an dem die meisten aussteigen. Was in der Praxis funktioniert, ist ein fester Ankermoment statt einer Uhrzeit: die erste Tasse Kaffee, das Zähneputzen, das Aufschließen des Büros. Die Packung steht sichtbar dort, wo dieser Moment stattfindet.
+Ein Nahrungsergänzungsmittel ergänzt eine ausgewogene, abwechslungsreiche Ernährung und ersetzt sie nicht. Für Kinder und Schwangere wird es nicht empfohlen. Wer stillt, Medikamente einnimmt oder eine Erkrankung hat, bespricht die Einnahme vorher in der Arztpraxis — das ist keine Formalie, sondern der kürzeste Weg zu einer klaren Antwort.</pre></details>
+    </div>
+  </div>
+  <div class="card">
+    <div class="top">
+      <span class="num">3</span>
+      <span class="t">Deciding Whether a Supplement Is Doing Anything: a Four-Week Method</span>
+      <span class="tag">UK</span>
+      <span class="tag">Google Sites</span>
+      <span class="tag df">DOFOLLOW</span>
+    </div>
+    <div class="body">
+      <div class="kv">
+        <span class="k">Write as</span><span class="v" style="font-family:inherit">Ruth Callaghan</span>
+        <span class="k">Link goes to</span><span class="v">https://buy-wego6.com/uk/does-it-work/</span>
+        <span class="k">Anchor text</span><span class="v anchor">what a daily capsule is actually supposed to do</span>
+        <span class="k">Site name</span><span class="v">wego6-four-week-method</span>
+      </div>
+      <div class="btns">
+        <button data-i="2" data-copy="title">Copy title</button>
+        <button data-i="2" data-copy="article">Copy article</button>
+        <button data-i="2" data-copy="anchor">Copy anchor</button>
+        <button data-i="2" data-copy="target">Copy link</button>
+      </div>
+      <details><summary>read the article</summary><pre># Deciding Whether a Supplement Is Doing Anything: a Four-Week Method
 
-Wer die Kapsel dagegen „irgendwann am Tag&quot; nehmen will, verhandelt sie jeden Morgen neu — und hört erfahrungsgemäß innerhalb weniger Wochen auf. Der Ankermoment ist wichtiger als jedes Erinnerungs-Tool auf dem Handy.
+*By Ruth Callaghan*
 
-## Herstellerangaben nachprüfen
+&quot;Does it work&quot; is the most common question asked about any supplement and the least answerable in the abstract, because the person asking it rarely says what &quot;work&quot; would look like. Answer that first and the question stops being vague. Leave it unanswered and no amount of reading settles anything.
 
-Alles, was in Foren, Kommentarspalten und Übersichtsartikeln über ein Präparat steht, lässt sich in zwei Minuten gegen die Quelle halten. Stimmen Kapselstärke, Stückzahl pro Packung, Tagesdosis und Zutatenliste mit dem überein, was der Anbieter selbst angibt? Dann hat der Text zumindest auf das Produkt geschaut. Weicht etwas ab, weiß man genug über den Rest.
+## Start by writing down what you expect
 
-Deshalb würde ich immer erst [die Herstellerangaben direkt an der Quelle nachlesen](https://buy-wego6.com/de/) und danach die Meinungen — nie umgekehrt. Wer mit den Meinungen beginnt, prüft am Ende nur, wer am lautesten geschrieben hat.
+Before ordering anything, put one sentence on paper: what would have to be different in four weeks for this to have been worth it? Vague hopes are unfalsifiable, which is precisely why they feel satisfying and prove nothing. A sentence you could be wrong about is the only kind worth testing.
 
-## Wer vorher nachfragen sollte
+It is also worth being clear about [what a daily capsule is actually supposed to do](https://buy-wego6.com/uk/does-it-work/) — a supplement is an addition to how you eat and organise your day, and expectations that ignore that part tend to end in disappointment aimed at the wrong thing.
 
-Ein Nahrungsergänzungsmittel ist eine Ergänzung zu einer bewussten Ernährung, kein Ersatz dafür, und nicht jede Zusammensetzung passt in jede Situation. In der Schwangerschaft, in der Stillzeit, bei regelmäßiger Einnahme von Medikamenten oder bei bekannter Koffeinempfindlichkeit gehört die Frage in die Arztpraxis — mit der Zutatenliste in der Hand dauert die Antwort dort keine fünf Minuten.
+## Take a baseline before day one
 
-Was ich mir zum Schluss notiere, ist unspektakulär: Startdatum, Ankermoment und die Bestellbestätigung in einem eigenen Ordner im Postfach. Diese drei Notizen beantworten später jede Rückfrage, die sonst zu einer halben Stunde Suchen im Posteingang wird.</pre></article>
+Whatever you intend to watch, record it for a few days *before* you start. Without a baseline you are comparing today against a memory, and memory reliably flatters whatever you have just spent money on.
 
-<h2>2 · Medium</h2>
-<p class="h2note">Does not pass ranking power, but it is a big trusted site and gets read and crawled quickly.</p>
-<article class="post" id="p5">
- <header><span class="pn">5</span><div>
-  <h3>Seriöse Anbieter erkennen: der Fünf-Minuten-Check vor der Bestellung</h3>
-  <p class="meta"><span class="plat md">Medium</span> <span class="val idx">indexing</span>
-  · DE · author <b>Henrike Baumgart</b> · 428 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/de/serioes/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>den Anbieter Punkt für Punkt durchgegangen</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>Seriöse Anbieter erkennen: der Fünf-Minuten-Check vor der Bestellung</p>
- <pre data-body># Seriöse Anbieter erkennen: der Fünf-Minuten-Check vor der Bestellung
+Three or four numbers are plenty, and they should be things you can capture in under a minute: how the mornings go, how consistent the meals were, how the week&#x27;s movement looked, how you slept. Precision matters less than recording the same things the same way each time.
 
-Nahrungsergänzungsmittel werden heute überwiegend online verkauft, oft von Shops, die man vorher nie gesehen hat. Ein sauber gestaltetes Layout sagt darüber nichts aus – Vorlagen kosten fast nichts. Ich halte mich deshalb an eine feste Reihenfolge, die sich in wenigen Minuten abarbeiten lässt.
+## Change one thing at a time
 
-**1. Das Impressum.** Wer sich an deutsche Kundinnen und Kunden richtet, muss Firmenname, ladungsfähige Anschrift, eine vertretungsberechtigte Person und einen direkten Kontaktweg nennen. Ein reines Kontaktformular ohne Adresse reicht nicht. Steht dort eine Handelsregisternummer, lässt sie sich kostenlos im Unternehmensregister nachschlagen – Name und Sitz müssen mit den Angaben auf der Seite übereinstimmen.
+This is where most self-assessments fall apart. A new capsule usually arrives in the same week as a new resolve, an emptier biscuit tin and a plan to walk more. If four things change together, no conclusion can be attached to any one of them.
 
-**2. Der Kontaktweg.** Vor der ersten Bestellung eine kurze, konkrete Frage per E-Mail schicken. Kommt innerhalb von ein bis zwei Werktagen eine Antwort, die tatsächlich auf die Frage eingeht? Das ist der beste Hinweis darauf, wie später eine Reklamation laufen würde.
+Hold everything else steady for the first four weeks. It is less exciting and it is the only version that produces an answer.
 
-**3. Zahlung und Laufzeit in den AGB.** Der häufigste Ärger entsteht nicht beim ersten Kauf, sondern danach. Suchen Sie im Dokument gezielt nach „Abo“, „Laufzeit“, „automatische Verlängerung“ und „Kündigung“. Ist eine wiederkehrende Lieferung vorgesehen, muss das vor dem Absenden der Bestellung klar erkennbar sein und nicht erst in einer Fußnote.
+## Beware the first fortnight
 
-**4. Die Widerrufsbelehrung.** Vierzehn Tage sind im Fernabsatz der gesetzliche Standard. Wichtiger als die Frist ist die Frage, ob eine konkrete Rücksendeadresse genannt wird und wer die Rücksendekosten trägt.
+The first two weeks of anything new carry an enthusiasm of their own. Attention alone changes behaviour, which is genuinely useful but is not evidence about a product. That is why the review point sits at four weeks rather than at ten days.
 
-**5. Die Produktangaben.** Zutatenliste, Nettofüllmenge, Verzehrempfehlung, Mindesthaltbarkeit und der Name des verantwortlichen Lebensmittelunternehmers gehören auf jede Seite eines Nahrungsergänzungsmittels. Fehlt die Zutatenliste ganz, ist das für mich ein hartes Ausschlusskriterium.
+## What the label actually declares
 
-**6. Die Bestellstrecke.** Einmal bis zum letzten Schritt durchklicken, ohne zu kaufen. Der Gesamtbetrag inklusive Versandkosten muss vor dem Bestellbutton stehen, und der Button selbst muss die Zahlungspflicht ausdrücklich benennen.
+WEGO 6 is a food supplement in capsule form. Each capsule declares 387 mg, the intake is one capsule a day, and a pack holds thirty capsules, which is what makes one pack equal one month. The capsule shell is vegan. The maker names apple cider vinegar and zinc specifically and describes the rest as plant-based ingredients and amino acids; the full list is on the pack.
 
-Bei einem Präparat, das mir in den letzten Wochen ständig begegnet ist, habe ich genau das gemacht und [den Anbieter Punkt für Punkt durchgegangen](https://buy-wego6.com/de/serioes/), bevor ich überhaupt über eine Bestellung nachgedacht habe. Der Aufwand lohnt sich, weil die Antworten für den gesamten Shop gelten und nicht nur für ein einzelnes Produkt.
+The stated routine is one capsule daily, swallowed whole with two large glasses of water, roughly fifteen to thirty minutes before or with a meal. The stated daily intake must not be exceeded.
 
-Und Gütesiegel? Ein Logo im Footer ist kein Nachweis. Jedes ernsthafte Siegel hat ein öffentliches Verzeichnis; zwei Klicks dort genügen, um zu sehen, ob der Shop wirklich geführt wird.
+## Decide in advance how you will stop
 
-Was dieser Ablauf nicht leistet: Er sagt nichts über die Zusammensetzung eines Produkts aus. Dafür ist allein die Zutatenliste da, und die liest man am besten in Ruhe und vor der Bestellung, nicht hinterher. Seriöse Anbieter erkennen heißt zunächst nur, dass man weiß, mit wem man es zu tun hat – und was man beim Klick auf „kaufen“ eigentlich zusagt.
+Write the stopping rule at the same time as the expectation: if nothing on your short list has moved by week four, that is the answer, and continuing out of sunk cost is the most expensive mistake available here. A pack that runs exactly one month makes that review point easy to schedule.
 
-*Von Henrike Baumgart*</pre></article><article class="post" id="p6">
- <header><span class="pn">6</span><div>
-  <h3>Spotting a Genuine Listing: The Checks I Run Before Ordering From a Seller I Don&#x27;t Know</h3>
-  <p class="meta"><span class="plat md">Medium</span> <span class="val idx">indexing</span>
-  · UK · author <b>Rowan Prescott</b> · 429 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/uk/legit/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>held the seller to that same standard</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>Spotting a Genuine Listing: The Checks I Run Before Ordering From a Seller I Don&#x27;t Know</p>
- <pre data-body># Spotting a Genuine Listing: The Checks I Run Before Ordering From a Seller I Don&#x27;t Know
+## The sober part
 
-Most supplements are now bought from websites nobody has heard of until an advert puts one in front of them. A tidy design proves nothing — templates are cheap and identical across hundreds of shops. What I do instead is work through the same short sequence every time, and it rarely takes longer than a coffee.
+Food supplements are not a substitute for a balanced, varied diet, and this one is not recommended for children or pregnant women. If you are breastfeeding, taking medication or living with a medical condition, ask your doctor before starting — it is the shortest route to an answer about you rather than about an average.</pre></details>
+    </div>
+  </div>
+  <div class="card">
+    <div class="top">
+      <span class="num">4</span>
+      <span class="t">What a Star Rating Can and Cannot Tell You</span>
+      <span class="tag">UK</span>
+      <span class="tag">Google Sites</span>
+      <span class="tag df">DOFOLLOW</span>
+    </div>
+    <div class="body">
+      <div class="kv">
+        <span class="k">Write as</span><span class="v" style="font-family:inherit">Gareth Milburn</span>
+        <span class="k">Link goes to</span><span class="v">https://buy-wego6.com/uk/reviews/</span>
+        <span class="k">Anchor text</span><span class="v anchor">hold a product&#x27;s own review page to the same standard</span>
+        <span class="k">Site name</span><span class="v">wego6-reading-ratings</span>
+      </div>
+      <div class="btns">
+        <button data-i="3" data-copy="title">Copy title</button>
+        <button data-i="3" data-copy="article">Copy article</button>
+        <button data-i="3" data-copy="anchor">Copy anchor</button>
+        <button data-i="3" data-copy="target">Copy link</button>
+      </div>
+      <details><summary>read the article</summary><pre># What a Star Rating Can and Cannot Tell You
 
-**Start with who is behind it.** A UK trader should give a business name, a registered address and a direct contact route. If a company number is shown, look it up on Companies House: the name, address and incorporation date should match what the site says about itself. A company registered three weeks ago isn&#x27;t disqualifying, but it does change how much of your own money you&#x27;d want to commit on a first order.
+*By Gareth Milburn*
 
-**Test the contact route before you need it.** Send one specific question by email and see what comes back. A reply within a couple of working days that actually answers the question tells you more about how a complaint would be handled than any badge on the homepage.
+A single number next to a product is the most-read and least-examined figure on the internet. It is not useless, but it answers a much narrower question than most people think, and the parts it hides are usually the parts that matter.
 
-**Read the terms where the money is.** Most disputes aren&#x27;t about the first purchase; they&#x27;re about what happens afterwards. Search the terms page for &quot;subscription&quot;, &quot;recurring&quot;, &quot;renewal&quot; and &quot;cancel&quot;. If repeat deliveries are part of the arrangement, that has to be obvious before you confirm, not buried below the fold.
+## An average hides its own shape
 
-**Check the cancellation wording.** Fourteen days is the standard position for distance selling in the UK. More useful than the number is whether there&#x27;s a named return address and a clear statement of who pays return postage.
+Ratings for consumer products rarely cluster around the middle. They pile up at the top and the bottom, because the people most likely to write anything are the delighted and the aggrieved. Two products can share an identical average while one has a broad spread of moderate opinions and the other has two opposing camps and nothing between them. The average cannot tell them apart; the distribution can, and it is usually one click away.
 
-**Then look at the product page itself.** Ingredients, serving size, net quantity and the name and address of the food business responsible for the product should all be there. A page that describes a benefit at length but never lists what&#x27;s actually in the capsule is telling you something.
+## Sample size, and the recency problem
 
-With one supplement that kept reappearing in my feed, I [held the seller to that same standard](https://buy-wego6.com/uk/legit/) before going any further, which took a few minutes and settled the question either way.
+Twelve reviews and twelve hundred reviews should not carry the same weight, yet they are displayed identically. Read the count before the score.
 
-Two last habits. Walk the checkout to the final step without paying, so you can see the full amount including postage before the button, and treat the padlock in the address bar as what it is — proof the connection is encrypted, not proof of who&#x27;s on the other end. Spotting a genuine listing is mostly just refusing to skip the boring parts.
+Recency matters just as much. Formulations change, ownership changes, fulfilment changes. A score built mostly from reviews two years old describes a product that may no longer exist in that form. Sort by newest before drawing any conclusion.
 
-*By Rowan Prescott*</pre></article><article class="post" id="p7">
- <header><span class="pn">7</span><div>
-  <h3>Betrouwbaarheid beoordelen: wat ik nakijk voordat ik bij een onbekende webshop bestel</h3>
-  <p class="meta"><span class="plat md">Medium</span> <span class="val idx">indexing</span>
-  · NL · author <b>Thijs Molenaar</b> · 401 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/nl/betrouwbaar/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>de verkoper langs dezelfde meetlat gelegd</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>Betrouwbaarheid beoordelen: wat ik nakijk voordat ik bij een onbekende webshop bestel</p>
- <pre data-body># Betrouwbaarheid beoordelen: wat ik nakijk voordat ik bij een onbekende webshop bestel
+## Who was able to write it
 
-Supplementen koop je tegenwoordig bijna altijd online, meestal bij een winkel waar je nog nooit van had gehoord voordat er een advertentie voorbijkwam. Een verzorgde website zegt daar niets over: sjablonen zijn goedkoop en zien er allemaal even net uit. Ik loop daarom elke keer hetzelfde rijtje af, en dat kost hooguit vijf minuten.
+Verified-purchase markers are imperfect but they are better than nothing. Reviews collected after an incentive, however mild, skew upward — that is a well-documented effect and not a conspiracy. Independent platforms and a maker&#x27;s own site are answering different questions, and it is worth reading both while remembering which is which.
 
-**Begin bij wie de verkoper is.** Een Nederlandse webwinkel hoort een handelsnaam, een vestigingsadres, een KvK-nummer en een btw-identificatienummer te vermelden. Het KvK-nummer kun je gratis opzoeken in het Handelsregister; naam en vestigingsplaats moeten kloppen met wat er op de site staat. Een jonge inschrijving is niet meteen verkeerd, maar het bepaalt wel hoeveel je bij een eerste bestelling wilt riskeren.
+## What to read instead of the number
 
-**Probeer het contact uit vóórdat je het nodig hebt.** Stuur één concrete vraag per e-mail. Komt er binnen een paar werkdagen antwoord dat écht op je vraag ingaat? Dat voorspelt beter hoe een klacht straks wordt afgehandeld dan welk logo dan ook in de voettekst.
+Four things settle more than any score. Is the dose per capsule stated, and per what — per capsule, per serving, per day? Is the full ingredient list there, or only a handful of appealing names? Does anything say who should not take it and how it is meant to be taken? And can you find out which company stands behind the product?
 
-**Lees de voorwaarden op de plek waar het over geld gaat.** De meeste problemen ontstaan niet bij de eerste aankoop, maar daarna. Zoek in het document gericht op &quot;abonnement&quot;, &quot;automatische verlenging&quot;, &quot;termijn&quot; en &quot;opzeggen&quot;. Als er herhaalleveringen in het spel zijn, moet dat duidelijk zijn vóórdat je de bestelling bevestigt.
+If two or more of those are missing, you are reading marketing. That is not automatically a problem — but it is a different thing from an assessment and should not carry the same weight in a decision.
 
-**Kijk naar het herroepingsrecht.** Veertien dagen bedenktijd is bij verkoop op afstand de standaard. Belangrijker dan die termijn is of er een concreet retouradres staat en wie de retourkosten draagt.
+The practical test takes two minutes: put what a review claims next to what the maker publishes and see whether they agree. It is fair to [hold a product&#x27;s own review page to the same standard](https://buy-wego6.com/uk/reviews/), and if the numbers on the two pages contradict each other, you have learned something about the page that got them wrong.
 
-**Beoordeel daarna pas de productpagina.** Ingrediënten, de aanbevolen dagelijkse hoeveelheid, de netto-inhoud en de naam en het adres van het verantwoordelijke levensmiddelenbedrijf horen er gewoon te staan. Een pagina die uitgebreid vertelt hoe fijn iets is, maar nergens vermeldt wat er in de capsule zit, geeft daarmee al antwoord.
+## What the pack itself declares
 
-Bij één supplement dat de laatste tijd overal opdook heb ik [de verkoper langs dezelfde meetlat gelegd](https://buy-wego6.com/nl/betrouwbaar/) voordat ik verder keek, en daarmee was de vraag binnen een kwartier beantwoord.
+WEGO 6 is a food supplement in capsule form: 387 mg per capsule, one capsule a day, thirty capsules per pack, vegan capsule shell. Apple cider vinegar and zinc are named specifically by the maker, with the rest described as plant-based ingredients and amino acids and the full list printed on the pack. The stated routine is one capsule daily, swallowed whole with two large glasses of water, about fifteen to thirty minutes before or with a meal, and the stated daily intake must not be exceeded.
 
-Nog twee gewoontes. Klik het bestelproces helemaal door tot de laatste stap zonder te betalen, zodat je het totaalbedrag inclusief verzendkosten ziet staan vóór de knop. En behandel een keurmerk als een claim die je zelf controleert: elk serieus keurmerk heeft een openbaar register, dus twee klikken laten zien of de winkel er echt in staat. Betrouwbaarheid beoordelen is uiteindelijk vooral: de saaie stappen niet overslaan.
+Those are checkable facts, which is exactly why they are the right things to compare a review against.
 
-*Door Thijs Molenaar*</pre></article>
+## Finally
 
-<h2>3 · Tumblr or WordPress.com</h2>
-<p class="h2note">Same idea — pick whichever account you already have. One post each.</p>
-<article class="post" id="p8">
- <header><span class="pn">8</span><div>
-  <h3>Packungsgrößen und Kurdauer: einmal nachrechnen, bevor bestellt wird</h3>
-  <p class="meta"><span class="plat tb">Tumblr or WordPress.com</span> <span class="val idx">indexing</span>
-  · DE · author <b>Annika Brehm</b> · 384 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/de/kaufen/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>rechne die angebotenen Packungen vorab auf Tage um</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>Packungsgrößen und Kurdauer: einmal nachrechnen, bevor bestellt wird</p>
- <pre data-body># Packungsgrößen und Kurdauer: einmal nachrechnen, bevor bestellt wird
+A food supplement is an addition to a balanced, varied diet rather than a replacement for it, and it is not recommended for children or pregnant women. Anyone breastfeeding, taking medication or managing a medical condition should ask a doctor first.</pre></details>
+    </div>
+  </div>
+  <div class="card">
+    <div class="top">
+      <span class="num">5</span>
+      <span class="t">Ranged, Own-Brand or Direct: Three Ways a Supplement Reaches You</span>
+      <span class="tag">UK</span>
+      <span class="tag">rentry.co</span>
+      <span class="tag df">DOFOLLOW</span>
+    </div>
+    <div class="body">
+      <div class="kv">
+        <span class="k">Write as</span><span class="v" style="font-family:inherit">Dawn Ellery</span>
+        <span class="k">Link goes to</span><span class="v">https://buy-wego6.com/uk/boots/</span>
+        <span class="k">Anchor text</span><span class="v anchor">check the maker&#x27;s own route to buy</span>
+        
+      </div>
+      <div class="btns">
+        <button data-i="4" data-copy="title">Copy title</button>
+        <button data-i="4" data-copy="article">Copy article</button>
+        <button data-i="4" data-copy="anchor">Copy anchor</button>
+        <button data-i="4" data-copy="target">Copy link</button>
+      </div>
+      <details><summary>read the article</summary><pre># Ranged, Own-Brand or Direct: Three Ways a Supplement Reaches You
 
-*Von Annika Brehm*
+*By Dawn Ellery*
 
-Auf der Vorderseite einer Dose Nahrungsergänzung steht meist eine große Zahl: 60, 90 oder 180 Kapseln. Die kleinere Zahl auf der Rückseite ist die wichtigere — die empfohlene Tagesportion. Erst beide zusammen ergeben die Kurdauer, und genau daran habe ich mich früher regelmäßig verrechnet.
+If you have searched for a supplement alongside the name of a high-street chemist and come away confused, the confusion is structural rather than personal. Products reach shoppers by three quite different routes, and each one produces a different answer to &quot;can I get it there&quot;.
 
-Die Rechnung selbst ist simpel: Kapseln pro Packung geteilt durch Kapseln pro Tag ergibt die Anzahl der Tage. 60 Kapseln bei zwei Stück täglich reichen 30 Tage, bei drei Stück nur 20. „Monatspackung“ ist dabei kein geschützter Begriff; maßgeblich ist ausschließlich die Verzehrempfehlung auf dem Etikett. Wer zwei Angebote nebeneinanderlegt, vergleicht also nur dann Vergleichbares, wenn er vorher beide auf Tage umrechnet — nicht auf Gramm und nicht auf Stückzahl.
+## Ranged
 
-Bei einem Mittel, das mich interessiert, öffne ich deshalb zuerst die Bestellseite und [rechne die angebotenen Packungen vorab auf Tage um](https://buy-wego6.com/de/kaufen/), bevor ich überhaupt eine Größe anklicke. Meine Erfahrung: Die Variante, die auf den ersten Blick „die vernünftige“ ist, deckt sich selten mit der Kurdauer, die ich mir eigentlich vorgenommen hatte.
+A brand persuades a retailer to list its product, and the retailer decides how many shops carry it and in what quantity. Being ranged is a commercial agreement — nothing more, nothing less. It is why a product can sit on a shelf in one town and be unobtainable in the next, and why a chain&#x27;s website is the only system that knows the current answer.
 
-Vier Punkte, die dabei regelmäßig untergehen:
+## Own-brand
 
-**Portion ist nicht gleich Kapsel.** Alle Mengenangaben auf dem Etikett beziehen sich auf die empfohlene Tagesportion. Besteht die aus zwei oder drei Kapseln, liegt der Gehalt je Kapsel entsprechend niedriger. Einmal umrechnen, dann ist das Bild klar.
+The retailer commissions a product and puts its own name on it. This is the reason two boxes with different names can contain similar formulations, and the reason a familiar name on a shelf tells you who sells it rather than who made it.
 
-**Mindesthaltbarkeitsdatum.** Ein Vorrat, der rechnerisch über das MHD hinausreicht, ist kein Vorrat. Bei mehreren Dosen lohnt der Blick auf das aufgedruckte Datum, bevor die Menge festgelegt wird.
+## Direct
 
-**Alltagstauglichkeit.** Dreimal täglich zu den Mahlzeiten ist etwas anderes als einmal morgens. Bei einem Präparat, das ich noch nicht kenne, wähle ich bewusst die kürzere Kur — Einnahmezeitpunkt, Kapselgröße und Verträglichkeit zeigen sich erst im Alltag.
+The company behind the product sells only from its own site. No shop search will ever return it, however the query is phrased, because there is nothing to return. This route has become common in supplements, and by itself it says nothing bad about a product — it changes where you look, not whether you should look.
 
-**Einmalbestellung oder wiederkehrende Lieferung.** Das gehört vor dem Absenden geklärt, samt Laufzeit und Kündigungsweg. Steht dazu nichts Eindeutiges auf der Seite, ist das die erste Frage an den Anbieter.
+That is the practical reason to [check the maker&#x27;s own route to buy](https://buy-wego6.com/uk/boots/) before spending another twenty minutes rephrasing a shop search. If a brand sells direct, the maker&#x27;s own listing is the whole of the answer.
 
-Zwei Dinge noch, nach dem Bestellen. Erstens die Lagerhinweise: Die meisten Kapseln wollen kühl, trocken und dicht verschlossen stehen, und das Trockenmittel bleibt in der Dose. Zweitens die Chargennummer notieren oder die Verpackung einmal abfotografieren — bei einer Rückfrage an den Hersteller ist das die erste Angabe, nach der gefragt wird.
+## Settling it in two minutes
 
-Große Wissenschaft ist das alles nicht. Es verhindert aber die zwei häufigsten Fehlkäufe: zu viel für eine Kur, die man ohnehin nicht durchhält, und zu wenig für eine, die man ernst gemeint hatte.</pre></article><article class="post" id="p9">
- <header><span class="pn">9</span><div>
-  <h3>What to Check Before Ordering a Supplement Online</h3>
-  <p class="meta"><span class="plat tb">Tumblr or WordPress.com</span> <span class="val idx">indexing</span>
-  · UK · author <b>Gareth Iveson</b> · 440 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/uk/buy/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>hold it to that standard before confirming anything</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>What to Check Before Ordering a Supplement Online</p>
- <pre data-body># What to Check Before Ordering a Supplement Online
+Search the retailer&#x27;s own website rather than a search engine, since only their system knows their range. Use a branch stock checker if one exists. Ring the nearest branch — a minute on the phone beats an afternoon of guessing. Then check whether the maker sells direct; nearly every brand states its route to purchase somewhere on its own site.
 
-*By Gareth Iveson*
+## One caution worth keeping
 
-Almost everything you need in order to judge an online supplement order is already on the page in front of you. The trouble is that it is scattered — part in the description, part in the label image, part in the small print and part in the terms — so hardly anyone reads all of it in one sitting. I have started doing exactly that, and it takes about five minutes.
+Where a product sells well, copies appear: photography lifted, the name altered by a character or two, a listing on a marketplace nobody recognises. Copies necessarily live somewhere other than the brand&#x27;s own address, so starting at that address removes the whole category of problem before it starts.
 
-When something looks worth trying, I open the order page and [hold it to that standard before confirming anything](https://buy-wego6.com/uk/buy/), rather than reading the description and taking the rest on trust. Four things I look for:
+## What the label declares
 
-**Who you are buying from.** Supplements sold in the UK are regulated as food, and a named business has to be responsible for the product, with a contactable address. On a website that should translate into a company name, a proper postal address and a way of reaching someone. A contact form with no name behind it is worth noticing.
+WEGO 6 is a food supplement in capsule form. Each capsule declares 387 mg, the intake is one capsule a day, and a pack holds thirty capsules — one month exactly. The capsule shell is vegan. The maker names apple cider vinegar and zinc specifically and describes the rest as plant-based ingredients and amino acids, with the full list on the pack. Individually named ingredients are the point: a formula given only as a &quot;blend&quot;, with no quantity attached, cannot be assessed by anyone.
 
-**What the product is.** The full ingredient list in descending order of weight, the amount of each active per stated daily dose, allergen information, and how many capsules a pack contains. If the daily dose is two or three capsules, divide before you choose a size — a pack count on its own tells you nothing about how long it lasts.
+The stated routine is one capsule daily, swallowed whole with two large glasses of water, roughly fifteen to thirty minutes before or with a meal, and the stated daily intake must not be exceeded.
 
-**What you are agreeing to.** Whether the order is a one-off or a recurring arrangement, and if it recurs, how long it runs and how it is stopped. Distance selling rules give cancellation rights on most online orders, but there are exceptions, so read the seller&#x27;s own returns and cancellation terms rather than assuming what they say.
+## Buying without a counter
 
-**Whether anyone answers.** Send one specific question — about the dose, the ingredient form, or the pack — and see what comes back. A clear reply from a person is a real signal; a template that ignores the question is one too.
+A counter does two things you lose online: it hands you the box and it gives you someone to ask. Both are replaceable if you are deliberate — read the ingredient panel on screen before ordering rather than after, decide honestly whether a daily capsule fits your day, and keep the order confirmation somewhere you can find it, because every later question refers back to it.
 
-It is surprising how often one of those four is not addressed anywhere on the page, and that absence is itself information.
+Food supplements are not a substitute for a balanced, varied diet and are not recommended for children or pregnant women. If you are breastfeeding, taking medication or managing a medical condition, ask your doctor before starting.</pre></details>
+    </div>
+  </div>
+  <div class="card">
+    <div class="top">
+      <span class="num">6</span>
+      <span class="t">Vor-Ort-Apotheke, Versandapotheke, Herstellerseite: wo man wirklich nachsieht</span>
+      <span class="tag">DE</span>
+      <span class="tag">rentry.co</span>
+      <span class="tag df">DOFOLLOW</span>
+    </div>
+    <div class="body">
+      <div class="kv">
+        <span class="k">Write as</span><span class="v" style="font-family:inherit">Jörg Steinbrecher</span>
+        <span class="k">Link goes to</span><span class="v">https://buy-wego6.com/de/apotheke/</span>
+        <span class="k">Anchor text</span><span class="v anchor">die Angaben des Herstellers direkt nachlesen</span>
+        
+      </div>
+      <div class="btns">
+        <button data-i="5" data-copy="title">Copy title</button>
+        <button data-i="5" data-copy="article">Copy article</button>
+        <button data-i="5" data-copy="anchor">Copy anchor</button>
+        <button data-i="5" data-copy="target">Copy link</button>
+      </div>
+      <details><summary>read the article</summary><pre># Vor-Ort-Apotheke, Versandapotheke, Herstellerseite: wo man wirklich nachsieht
 
-Two things afterwards. Keep the confirmation email and the order reference; if a query ever comes up, that is the first thing you will be asked for. And when the pack arrives, take the batch code and the best-before date from the label itself rather than from the listing.
+*Von Jörg Steinbrecher*
 
-One last point no web page can settle for you: if you take prescription medicines or have an ongoing condition, run the ingredient list past a pharmacist or your GP before you start. They will read a label far faster than you can.</pre></article><article class="post" id="p10">
- <header><span class="pn">10</span><div>
-  <h3>Waar je een kuur bestelt: de route natrekken voordat je afrekent</h3>
-  <p class="meta"><span class="plat tb">Tumblr or WordPress.com</span> <span class="val idx">indexing</span>
-  · NL · author <b>Thijs Bongers</b> · 389 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/nl/kopen/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>vooraf na bij wie ik precies bestel</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>Waar je een kuur bestelt: de route natrekken voordat je afrekent</p>
- <pre data-body># Waar je een kuur bestelt: de route natrekken voordat je afrekent
+Die Frage „wo bekomme ich das?“ lässt sich bei Nahrungsergänzung in wenigen Minuten klären — allerdings nicht mit einer Suchmaschine, sondern mit drei gezielten Blicken. Suchergebnisse zeigen Seiten über ein Produkt. Was heute lieferbar ist, steht ausschließlich im Warensystem des jeweiligen Anbieters.
 
-*Door Thijs Bongers*
+## Erstens: die Apotheke vor Ort
 
-Over supplementen wordt vooral op productniveau gediscussieerd: welk ingrediënt, welke dosering, welk merk. De vraag wáár je bestelt krijgt veel minder aandacht, terwijl juist die bepaalt bij wie je terechtkunt als er iets niet klopt. Dat is een ander soort informatie, en die haal je in een paar minuten zelf op.
+Ein Anruf genügt. Das Team sieht im eigenen System nach, ob ein Artikel bestellbar ist, und sagt es geradeheraus. Das ist schneller als jede Recherche und verbindlicher, weil die Auskunft aus derselben Quelle kommt, aus der bestellt würde.
 
-Grofweg zijn er drie routes: rechtstreeks bij de aanbieder, via een online marktplaats, of via een fysieke winkel zoals een drogist. Bij een marktplaats sluit je de koop vaak niet met het platform zelf maar met een derde partij, die klein bij het aanbod vermeld staat. Weet dus per bestelling met wie je precies een overeenkomst aangaat — dat is de partij die je later aanschrijft.
+## Zweitens: die Versandapotheke
 
-Bij een middel dat ik overweeg, ga ik daarom [vooraf na bij wie ik precies bestel](https://buy-wego6.com/nl/kopen/) voordat ik ook maar iets in het winkelmandje leg. Vier dingen kijk ik daarbij na:
+Versandapotheken führen ebenfalls nur, was sie gelistet haben. Deshalb gehört die Suche in deren eigenem Suchfeld zum Check — nicht die allgemeine Websuche mit dem Namen der Apotheke daneben. Findet ihr System nichts, ist die Frage für diesen Anbieter beantwortet.
 
-**Bedrijfsgegevens.** Een Nederlandse of Europese webwinkel hoort een handelsnaam, een vestigingsadres, een KvK-nummer en een echte contactmogelijkheid te vermelden. Staat er alleen een formulier, dan weet je niet wie de verkoper is.
+## Drittens: die Herstellerseite
 
-**De verantwoordelijke op het etiket.** Op de verpakking van een voedingssupplement staan naam en adres van het bedrijf dat er binnen de EU verantwoordelijk voor is. Dat hoeft niet dezelfde partij te zijn als de webshop, en het is nuttig om te weten of dat zo is.
+Bei einem wachsenden Teil der Nahrungsergänzungsmittel läuft der Vertrieb ausschließlich direkt. Dann führt keine Händlersuche zum Ziel, egal wie oft man die Suchanfrage umformuliert. In diesem Fall hilft nur, [die Angaben des Herstellers direkt nachlesen](https://buy-wego6.com/de/apotheke/): Dort stehen Zusammensetzung, Packungsaufbau und die Bedingungen des Kaufs an einer Stelle, statt aus Bruchstücken unbekannten Alters zusammengesetzt zu werden.
 
-**Eenmalig of doorlopend.** Koop je één keer, of ga je een terugkerende levering aan? Zo ja: welke looptijd, en hoe zeg je die op? Dat hoort vóór het afrekenen duidelijk te zijn.
+## Woran man Kopien erkennt
 
-**Herroeping en retour.** Bij kopen op afstand geldt in de EU een bedenktijd van veertien dagen, met uitzonderingen — bijvoorbeeld verzegelde producten waarvan het zegel is verbroken. Lees daarom de voorwaarden van de verkoper zelf in plaats van uit te gaan van de hoofdregel.
+Wo ein Produkt gefragt ist, entstehen Listings mit übernommenen Fotos und leicht verändertem Namen. Sie liegen zwangsläufig woanders als die Adresse des Herstellers. Wer dort beginnt, umgeht dieses Problem vollständig.
 
-Verder: betaal via een methode die traceerbaar is, en bewaar de bevestigingsmail met het ordernummer. Komt de bestelling binnen, noteer dan het batchnummer en de houdbaarheidsdatum van de verpakking zelf — bij een vraag aan de fabrikant of een terugroepactie is dat het eerste waar naar gevraagd wordt.
+## Was auf der Packung steht
 
-De route zegt niets over wat er in de capsule zit; daarvoor is het etiket er. Maar hij bepaalt wel precies wat je kunt doen op het moment dat er iets misgaat, en dat is het halve werk.</pre></article>
+WEGO 6 ist ein Nahrungsergänzungsmittel in Kapselform: 387 mg pro Kapsel, eine Kapsel täglich, dreißig Kapseln je Packung — also genau ein Monat. Die Kapselhülle ist vegan. Der Hersteller nennt Apfelessig und Zink konkret, der Rest ist als pflanzliche Inhaltsstoffe und Aminosäuren beschrieben; die vollständige Liste steht auf der Packung.
 
-<h2>4 · Still to publish from the last batch</h2>
-<article class="post" id="p11">
- <header><span class="pn">11</span><div>
-  <h3>Wat er op een supplementenetiket staat, en hoe je dat zelf nakijkt</h3>
-  <p class="meta"><span class="plat md">Substack / telegra.ph</span> <span class="val df">DOFOLLOW</span>
-  ·  · author <b>Bram Veenstra</b> · 412 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/nl/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>eerst langs deze punten leggen</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>Wat er op een supplementenetiket staat, en hoe je dat zelf nakijkt</p>
- <pre data-body># Wat er op een supplementenetiket staat, en hoe je dat zelf nakijkt
+Entscheidend ist weniger, welche Namen dort stehen, als dass sie einzeln dastehen. Eine Rezeptur, die nur als „Komplex“ ohne Mengenangabe auftaucht, ist für niemanden nachvollziehbar.
 
-*Door Bram Veenstra*
+## Die Einnahme
 
-Een etiket van een voedingssupplement oogt rommelig, maar het is voor een groot deel voorgeschreven. In de EU ligt vast wát erop moet staan. Weet je waar je moet kijken, dan lees je zo&#x27;n verpakking in een paar minuten.
+Eine Kapsel täglich, unzerkaut, mit zwei großen Gläsern Wasser, etwa 15 bis 30 Minuten vor oder direkt zu einer Mahlzeit. Die angegebene empfohlene Tagesmenge darf nicht überschritten werden. Praktisch bewährt sich ein fester Ankermoment — der erste Kaffee, das Zähneputzen —, weil eine Einnahme ohne festen Zeitpunkt binnen zwei Wochen wieder verschwindet.
 
-Verplicht zijn onder meer: de aanduiding &quot;voedingssupplement&quot;, de ingrediëntenlijst, de hoeveelheid van de betreffende stoffen per aanbevolen dagelijkse portie, de aanbevolen dosering, de waarschuwing die dosering niet te overschrijden, de vermelding dat een supplement geen vervanging is voor gevarieerde voeding, en de tekst dat het buiten bereik van jonge kinderen bewaard moet worden. Daarnaast de netto-inhoud, de houdbaarheidsdatum, de bewaarvoorschriften en — vaak overgeslagen, maar belangrijk — naam en adres van het bedrijf dat binnen de EU verantwoordelijk is. Ontbreekt dat laatste, dan weet je niet bij wie je terechtkunt.
+## Drei Notizen vor der Bestellung
 
-Vier punten die de meeste mensen over het hoofd zien:
+Das Startdatum, damit später klar ist, wie lange etwas läuft. Der Ankermoment, damit die Einnahme nicht täglich neu verhandelt wird. Und die Bestellbestätigung in einem eigenen Ordner im Postfach, weil jede spätere Rückfrage genau darauf zurückgreift.
 
-**Volgorde.** Ingrediënten staan gerangschikt op gewicht, van veel naar weinig. Wat achteraan staat, zit er in kleine hoeveelheden in.
+## Zum Schluss
 
-**Portie is niet hetzelfde als capsule.** De opgegeven hoeveelheden gelden per aanbevolen portie. Bestaat een portie uit twee of drie capsules, dan ligt de hoeveelheid per capsule navenant lager. Reken het één keer om.
+Ein Nahrungsergänzungsmittel ergänzt eine ausgewogene, abwechslungsreiche Ernährung und ersetzt sie nicht. Für Kinder und Schwangere wird es nicht empfohlen. Wer stillt, Medikamente einnimmt oder eine Erkrankung hat, klärt die Einnahme vorher in der Arztpraxis.</pre></details>
+    </div>
+  </div>
+  <div class="card">
+    <div class="top">
+      <span class="num">7</span>
+      <span class="t">Waarom een supplement soms alleen bij de fabrikant te koop is</span>
+      <span class="tag">NL</span>
+      <span class="tag">Tumblr</span>
+      <span class="tag df">DOFOLLOW</span>
+    </div>
+    <div class="body">
+      <div class="kv">
+        <span class="k">Write as</span><span class="v" style="font-family:inherit">Joost Kramer</span>
+        <span class="k">Link goes to</span><span class="v">https://buy-wego6.com/nl/apotheek/</span>
+        <span class="k">Anchor text</span><span class="v anchor">de route van fabrikant naar deur</span>
+        
+      </div>
+      <div class="btns">
+        <button data-i="6" data-copy="title">Copy title</button>
+        <button data-i="6" data-copy="article">Copy article</button>
+        <button data-i="6" data-copy="anchor">Copy anchor</button>
+        <button data-i="6" data-copy="target">Copy link</button>
+      </div>
+      <details><summary>read the article</summary><pre># Waarom een supplement soms alleen bij de fabrikant te koop is
 
-**Extracten.** Bij plantaardige ingrediënten staat vaak een verhouding, bijvoorbeeld 10:1, of de formulering &quot;equivalent aan&quot;. Een getal in milligram zegt weinig zolang onduidelijk is of het om het extract gaat of om het gedroogde plantmateriaal waaruit het komt.
+*Door Joost Kramer*
 
-**%RI.** Bij vitamines en mineralen staat het percentage van de referentie-inname. Handig om te zien of iets een bescheiden aanvulling is of een stevige dosis.
+Wie een supplement niet bij de drogist of apotheek ziet liggen, denkt al snel dat er iets mis is. Meestal is er iets veel saaiers aan de hand: het product wordt gewoon niet via winkels verkocht.
 
-Gezondheidsclaims zijn apart geregeld. Alleen goedgekeurde formuleringen mogen worden gebruikt, en beweren dat een levensmiddel een ziekte voorkomt of geneest, mag sowieso niet. Voor veel plantaardige ingrediënten is de Europese beoordeling nog niet afgerond, waardoor je in de praktijk vage bewoordingen tegenkomt. Twijfel je? De Europese Commissie houdt een openbaar register van toegestane claims bij, en in Nederland is de NVWA het loket voor meldingen.
+## Wat een winkelschap eigenlijk betekent
 
-Zelf loop ik dit rijtje inmiddels standaard af voordat ik iets bestel. Een middel [eerst langs deze punten leggen](https://buy-wego6.com/nl/) kost een paar minuten, en het valt op hoe vaak er dan een vraag overblijft voor de aanbieder. Hóé daarop geantwoord wordt, zegt vaak net zo veel als het etiket.
+Een plek in het schap is een handelsafspraak. Een keten beslist welke artikelen ze opneemt, in hoeveel filialen en in welke hoeveelheid. Die beslissing gaat over marges, ruimte en verwachte omzet. Ze zegt niets over de samenstelling van een product, en het ontbreken ervan dus ook niet.
 
-Bewaar tot slot het lot- of batchnummer, of maak een foto van de verpakking. Bij een klacht of een terugroepactie is dat het eerste wat gevraagd wordt.</pre></article><article class="post" id="p12">
- <header><span class="pn">12</span><div>
-  <h3>Why Plenty of Supplements Never Reach the High Street</h3>
-  <p class="meta"><span class="plat md">Substack / telegra.ph</span> <span class="val df">DOFOLLOW</span>
-  ·  · author <b>Ian Vosper</b> · 418 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/uk/boots/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>apply the same checks wherever you happen to be buying</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>Why Plenty of Supplements Never Reach the High Street</p>
- <pre data-body># Why Plenty of Supplements Never Reach the High Street
+## Waarom directe verkoop is toegenomen
 
-*By Ian Vosper*
+Bij directe verkoop houdt de fabrikant het contact met de klant zelf in handen: één plek waar de etiketgegevens, de verpakkingsopbouw en de voorwaarden staan, zonder tussenschakels die elk hun eigen versie van de informatie publiceren. Voor de koper verandert dat vooral waar je moet kijken. Het is dus zinnig om [de route van fabrikant naar deur](https://buy-wego6.com/nl/apotheek/) te volgen in plaats van de zoekopdracht met een winkelnaam nog eens te herhalen.
 
-Walk into a chemist and the supplement aisle looks like a summary of the market. It isn&#x27;t. It is a summary of what one buying team decided to range, and those are very different things.
+## Hoe je in twee minuten uitsluit dat het in de winkel ligt
 
-Shelf space is the scarcest resource in retail. A national chain plans its ranges months ahead, allocates a fixed number of facings to each category, and reviews them on a fixed cycle. Getting into that space usually means clearing volume commitments, packaging and barcode requirements, distribution through a wholesaler and, often, a contribution towards in-store promotions. Staying there means selling at a rate a category manager can defend against everything else queueing for the same few centimetres. Plenty of ordinary, unremarkable products never clear that bar, because they are new, niche, or sold in a format the chain does not carry.
+Gebruik het zoekveld van de keten zelf, niet een algemene zoekmachine — alleen hun systeem kent hun assortiment. Bel eventueel het filiaal. Kijk daarna of de fabrikant zelf levert. Verkoopt een merk uitsluitend via de eigen site, dan blijft elke winkelzoekopdracht per definitie leeg.
 
-There is also traffic in the other direction: brands that never apply. Selling directly keeps control of the description, the packaging and the customer relationship, and it avoids splitting one margin between two businesses for the same product. For a small operation that arithmetic often does not work, so it stays online deliberately. Most of us then default to a name we already know — Boots, a supermarket aisle, whatever is on the way home — and read absence as a verdict. It usually isn&#x27;t one.
+## Let op nagemaakte listings
 
-What a missing listing genuinely tells you is fairly limited: that a commercial agreement does not exist, or has not been sought. It says nothing about what is in the capsule, who made it, or to what standard.
+Bij producten die goed lopen verschijnen aanbiedingen met overgenomen foto&#x27;s en een naam die net iets afwijkt. Die staan altijd ergens anders dan op het adres van de fabrikant zelf. Wie daar begint, heeft dat probleem niet.
 
-What does tell you something is the paperwork. In the UK, food supplements are regulated as food, and the same rules follow the product wherever it is sold: a named business responsible for it with a contactable address, a full ingredient declaration in descending order of weight, allergen information, a batch code, a best-before date and a stated daily dose. The sensible approach is to [apply the same checks wherever you happen to be buying](https://buy-wego6.com/uk/boots/), rather than letting the setting do your thinking for you. Ask who is behind it, what a serving actually contains, and whether anyone answers when you write to them.
+## Wat er op de verpakking staat
 
-A retail listing is a relationship between two companies. It proves somebody signed a contract. It is not, in itself, evidence about the contents — and a website is not evidence against them. Judge the product. The shelf is just furniture.
-</pre></article><article class="post" id="p13">
- <header><span class="pn">13</span><div>
-  <h3>How to Read a Supplement Label Properly</h3>
-  <p class="meta"><span class="plat md">Substack / telegra.ph</span> <span class="val df">DOFOLLOW</span>
-  ·  · author <b>Nadia Crowther</b> · 420 words</p></div></header>
- <div class="kv">
-  <div><span>Link goes to</span><code>https://buy-wego6.com/uk/</code></div>
-  <div><span>Anchor text (already in the text)</span><code>check the per-serving figures rather than the headline on the front</code></div>
- </div>
- <div class="copybox"><button type="button" class="alt" data-t="title">Copy title</button>
- <button type="button" data-t="body">Copy article</button></div>
- <p class="titleline" data-title>How to Read a Supplement Label Properly</p>
- <pre data-body># How to Read a Supplement Label Properly
+WEGO 6 is een voedingssupplement in capsulevorm: 387 mg per capsule, één capsule per dag en dertig capsules per pot — precies één maand. De capsulehuls is plantaardig. De fabrikant noemt appelazijn en zink met naam en beschrijft de rest als plantaardige ingrediënten en aminozuren; de volledige lijst staat op de verpakking.
 
-*By Nadia Crowther*
+De inname zoals die is opgeschreven: één capsule per dag, heel doorslikken, met twee grote glazen water, ongeveer vijftien tot dertig minuten voor of tijdens een maaltijd. De aangegeven aanbevolen dagelijkse hoeveelheid mag niet worden overschreden.
 
-The front of a supplement box is written by a marketing department. The back is written by regulation. If you want to know what you are actually buying, turn it over.
+## Twee dingen die ik zelf noteer
 
-Start with the serving size: everything else on the panel hangs off it. A label often declares its figures per serving rather than per capsule, and a serving is frequently two capsules, sometimes three. Get that wrong and you can misread a product by a factor of two before looking at a single ingredient. Check the number of servings per pack too — that, not the capsule count, tells you how long one lasts.
+Het startmoment, zodat later duidelijk is hoe lang iets loopt. En het vaste tijdstip van inname, gekoppeld aan iets wat toch al elke dag gebeurt — koffie, tandenpoetsen — want zonder vast moment verdwijnt de inname binnen twee weken.
 
-Then the units. Milligrams and micrograms are separated by a thousand-fold and sit side by side on the same panel: vitamin D and B12 are usually declared in micrograms, most minerals and botanicals in milligrams. A glance at &quot;400&quot; means nothing until you read the two letters after it.
+## Tot slot
 
-Percentages only appear where there is something to compare against. Vitamins and minerals have Nutrient Reference Values, so you get a %NRV column; plant extracts have none, so they appear as a plain weight. A missing percentage is not a gap in the label; no reference figure exists for that ingredient.
+Een voedingssupplement is een aanvulling op een gevarieerde, uitgebalanceerde voeding en geen vervanging daarvan. Het wordt niet aanbevolen voor kinderen en zwangere vrouwen. Wie borstvoeding geeft, medicijnen gebruikt of een aandoening heeft, overlegt eerst met de huisarts.</pre></details>
+    </div>
+  </div>
+  <div class="card">
+    <div class="top">
+      <span class="num">8</span>
+      <span class="t">387 mg on a Label: What a Dose Figure Does and Doesn&#x27;t Tell You</span>
+      <span class="tag">UK</span>
+      <span class="tag">Tumblr</span>
+      <span class="tag df">DOFOLLOW</span>
+    </div>
+    <div class="body">
+      <div class="kv">
+        <span class="k">Write as</span><span class="v" style="font-family:inherit">Helen Ashworth</span>
+        <span class="k">Link goes to</span><span class="v">https://buy-wego6.com/uk/does-it-work/</span>
+        <span class="k">Anchor text</span><span class="v anchor">read the per-capsule figures next to the intake</span>
+        
+      </div>
+      <div class="btns">
+        <button data-i="7" data-copy="title">Copy title</button>
+        <button data-i="7" data-copy="article">Copy article</button>
+        <button data-i="7" data-copy="anchor">Copy anchor</button>
+        <button data-i="7" data-copy="target">Copy link</button>
+      </div>
+      <details><summary>read the article</summary><pre># 387 mg on a Label: What a Dose Figure Does and Doesn&#x27;t Tell You
 
-The ingredient list runs by weight, heaviest first. Anything near the end is there in a small quantity, whatever the front of the pack highlights. Bulking agents, anti-caking agents and the capsule shell all take up room there, which is normal — though the shell is worth reading if you avoid gelatine.
+*By Helen Ashworth*
 
-Extracts need a second look. A &quot;10:1 extract&quot; is concentrated, so 100mg of it is not comparable with 100mg of plain milled powder. Good labels state the ratio and what the extract is equivalent to; where several ingredients are grouped under one combined total, you cannot tell how it is split.
+A milligram figure on a supplement pack looks like the most solid thing on the box. It is solid — but it answers a narrower question than it appears to, and reading it properly takes about thirty seconds.
 
-None of this takes long once you know the order to read it in, and it is the one part of the box that must be specific. Before buying anything, it is worth learning to [check the per-serving figures rather than the headline on the front](https://buy-wego6.com/uk/), because the gap between those two numbers is usually the whole story.
+## Per what?
 
-The label also carries the statutory lines: a recommended daily dose, an instruction not to exceed it, and a reminder that supplements are no substitute for a varied and balanced diet. Easy to skim past, and the most honest sentences on the box.
-</pre></article>
+The first question is never &quot;how many milligrams&quot; but &quot;per what&quot;. Per capsule, per serving, or per recommended daily intake? A pack that lists a figure per two-capsule serving is not comparable with one that lists it per capsule, and comparing the two numbers directly produces a conclusion that is simply wrong.
 
-<h2>5 · Pinterest — separate job</h2>
-<div class="card">
-<h3>This one is for visitors, not for rankings</h3>
-<p>Pinterest links do not help rankings, but weight loss is one of the biggest topics on
-Pinterest and pins bring real people. Worth doing as its own small task:</p>
-<ul>
-<li>Make a board with a plain name such as "Daily habits and supplements".</li>
-<li>Create 5–8 pins. Use the product images from our own pages, or simple text-on-colour images.</li>
-<li>Each pin links to one of our pages — spread them, do not point all of them at the same one.</li>
-<li>Write a normal two-sentence description. No prices, no promises about weight loss.</li>
-</ul>
+Once you know the unit, the second question is how many of those units a day the maker actually recommends. That pair — amount and frequency — is the whole of the dose. Either number alone tells you nothing, which is why it is worth taking the time to [read the per-capsule figures next to the intake](https://buy-wego6.com/uk/does-it-work/) rather than reading the largest figure on the packaging.
+
+## A total is not a recipe
+
+A single figure covering a whole formula does not say how it divides between the named ingredients. That is why individually listed ingredients matter more than an impressive total: where a formula appears only as a &quot;blend&quot; with one number attached, nobody can work out how much of what is in it — including whoever is writing about it.
+
+## What this pack states
+
+WEGO 6 is a food supplement in capsule form. Each capsule declares 387 mg, the intake is one capsule a day, and a pack holds thirty capsules, which makes one pack exactly one month. The capsule shell is vegan. The maker names apple cider vinegar and zinc specifically and describes the rest as plant-based ingredients and amino acids, with the full list on the pack.
+
+The routine as written: one capsule daily, swallowed whole with two large glasses of water, roughly fifteen to thirty minutes before or with a meal. The stated recommended daily intake must not be exceeded — a line worth taking literally rather than as packaging boilerplate.
+
+## Why &quot;one a day, one month&quot; is convenient
+
+A pack that runs exactly a month gives you a natural review point. Note the start date, pick a fixed moment in the day and attach the capsule to something that already happens — the first coffee, brushing your teeth. An intake with no fixed moment disappears within a fortnight, and then the question of whether anything changed can never be answered, because the thing was never done consistently in the first place.
+
+## The part the number cannot cover
+
+A dose figure describes what is in a capsule. It says nothing about how the rest of your day is arranged, and that is where most of the outcome lives — meals you can repeat on a chaotic Tuesday, water, movement that needs no appointment, and sleep, the one everybody economises on.
+
+Food supplements are not a substitute for a balanced, varied diet, and this one is not recommended for children or pregnant women. If you are breastfeeding, taking medication or managing a medical condition, ask your doctor before starting.</pre></details>
+    </div>
+  </div>
+
+
+  <div class="panel">
+    <h2 style="margin-top:0">Still open from before — Pinterest</h2>
+    <p style="margin:0 0 8px;color:var(--dim)">This one is for visitors, not for rankings, so it
+    comes after the eight articles above.</p>
+    <ol class="steps">
+      <li>Make a board with a plain name such as <b>Daily habits and supplements</b>.</li>
+      <li>Create 5–8 pins, using the product images from our own pages or simple
+        text-on-colour images.</li>
+      <li>Each pin links to one of our pages — spread them out, do not point them all at the
+        same one.</li>
+      <li>Write a normal two-sentence description. No prices, and no promises about weight loss.</li>
+    </ol>
+  </div>
 </div>
-
-<h2>Rules for all of it</h2>
-<div class="card">
-<ul>
-<li><b>Do not change the link or the words it sits on.</b> One link per post, where it already is.</li>
-<li><b>Use the author name given</b> with each post. Never reuse a name.</li>
-<li><b>Spread them out.</b> A few a day is better than all of them at once — publishing twenty
-links in one afternoon looks automated and can work against us.</li>
-<li><b>Send back every published address</b> so it can be checked. Every link gets tested to
-make sure it actually became a link and not just text.</li>
-</ul>
-</div>
-</div>
-<footer><div class="wrap">WEGO6 backlink tasks · internal, noindex</div></footer>
 <script>
-document.querySelectorAll('.copybox button').forEach(function(b){
- b.addEventListener('click',function(){
-  var post=b.closest('.post');
-  var el=b.dataset.t==='title'?post.querySelector('[data-title]'):post.querySelector('[data-body]');
-  navigator.clipboard.writeText(el.innerText).then(function(){
-   var o=b.textContent;b.textContent='Copied';b.classList.add('done');
-   setTimeout(function(){b.textContent=o;b.classList.remove('done');},1500);});
- });
+const ART = [{"title": "Zelf nagaan of een supplement in de winkel ligt: vier stappen", "anchor": "de officiële bestelroute van de fabrikant nagaan", "target": "https://buy-wego6.com/nl/apotheek/", "markdown": "# Zelf nagaan of een supplement in de winkel ligt: vier stappen\n\n*Door Ilse Bosman*\n\nBijna iedereen die een supplement tegenkomt, stelt eerst dezelfde vraag: ligt dit gewoon bij de apotheek of de drogist? Het is een verstandige vraag, want een schap in de buurt betekent dat je de verpakking kunt vasthouden en de achterkant kunt lezen voordat je iets beslist. Alleen is die vraag online zelden in één zoekopdracht te beantwoorden, en dat komt niet doordat het antwoord verborgen wordt. Het assortiment verschilt per keten, soms zelfs per filiaal, en een deel van de supplementen komt tegenwoordig niet meer via winkels binnen.\n\n## Waarom een zoekmachine hier het verkeerde gereedschap is\n\nEen zoekmachine laat pagina's zien die over een product gaan. Wat er vandaag in een filiaal op voorraad ligt, staat in het voorraadsysteem van die winkel en nergens anders. Zoekresultaten met een winkelnaam erin betekenen dus niets over de werkelijke verkrijgbaarheid; het zijn vaak pagina's van derden die de naam van de keten alleen gebruiken omdat mensen daarop zoeken.\n\n## Vier stappen die het in een paar minuten uitsluiten\n\n**Eén: zoek in de webshop van de keten zelf.** Ga naar de site van de drogist of apotheek en gebruik hun eigen zoekveld. Alleen dat systeem weet wat er in het assortiment zit. Komt het product er niet in voor, dan heb je je antwoord voor die keten.\n\n**Twee: bel het filiaal.** Eén telefoontje kost een minuut. Medewerkers kijken in hetzelfde systeem en zeggen gewoon of iets besteld kan worden.\n\n**Drie: kijk of de fabrikant zelf levert.** Bij veel supplementen is dat het enige verkooppunt. Het loont om vooraf [de officiële bestelroute van de fabrikant nagaan](https://buy-wego6.com/nl/apotheek/), want als een merk uitsluitend via de eigen site verkoopt, blijft elke winkelzoekopdracht leeg — hoe vaak je hem ook anders formuleert.\n\n**Vier: let op kopieën.** Waar een product goed loopt, duiken listings op met overgenomen foto's en een naam die één letter afwijkt. Die staan per definitie ergens anders dan op het adres van de fabrikant. Wie meteen bij de bron begint, loopt dat risico niet.\n\n## Wat er feitelijk op de verpakking staat\n\nWEGO 6 is een voedingssupplement in capsulevorm. Per capsule wordt 387 mg opgegeven, de inname is één capsule per dag en een pot bevat dertig capsules — precies één maand. De capsulehuls is plantaardig. De fabrikant noemt appelazijn en zink met naam en omschrijft de rest als plantaardige ingrediënten en aminozuren; de volledige lijst staat op de verpakking.\n\nDat ingrediënten afzonderlijk vermeld staan is belangrijker dan welke namen het precies zijn. Een formule die alleen als \"complex\" op de verpakking staat, zonder hoeveelheid per ingrediënt, valt door niemand te beoordelen.\n\n## De inname, zoals hij is opgeschreven\n\nDe fabrikant beschrijft één capsule per dag, heel doorslikken, met twee grote glazen water, ongeveer vijftien tot dertig minuten voor of tijdens een maaltijd. De aangegeven dagelijkse hoeveelheid mag niet worden overschreden. Dat is geen detail: wie zich niet aan een vast moment houdt, stopt er in de praktijk binnen twee weken mee.\n\n## Tot slot\n\nEen voedingssupplement is een aanvulling op wat je eet en hoe je je dag inricht, geen vervanging daarvan. Het wordt niet aanbevolen voor kinderen en zwangere vrouwen. Wie borstvoeding geeft, medicijnen gebruikt of een aandoening heeft, legt het gebruik eerst voor aan de huisarts. Dat is de kortste route naar een antwoord dat over jouw situatie gaat."}, {"title": "„In der Apotheke erhältlich“ — was das bei Nahrungsergänzung bedeutet", "anchor": "beim Hersteller selbst nachsehen, wie der Bezug geregelt ist", "target": "https://buy-wego6.com/de/apotheke/", "markdown": "# „In der Apotheke erhältlich“ — was das bei Nahrungsergänzung bedeutet\n\n*Von Marlene Kirchhoff*\n\nDer Satz steht auf unzähligen Produktseiten, und er wird fast immer falsch gelesen. Bei Nahrungsergänzungsmitteln sagt „in der Apotheke erhältlich“ nichts über eine behördliche Prüfung aus und ist auch keine Auszeichnung. Er beschreibt nur, dass ein Betrieb das Produkt in sein Sortiment aufgenommen hat.\n\n## Nahrungsergänzung ist rechtlich ein Lebensmittel\n\nDas ist der Punkt, an dem die meisten Missverständnisse entstehen. Nahrungsergänzungsmittel sind Lebensmittel, keine Arzneimittel. Sie sind damit frei verkäuflich und unterliegen keiner Apothekenpflicht. Ob ein Präparat in einer Apotheke steht, ist deshalb eine Sortimentsentscheidung wie in jedem anderen Handel auch — jede Apotheke trifft sie selbst.\n\nUmgekehrt heißt „nicht in der Apotheke“ nicht, dass mit einem Produkt etwas nicht stimmt. Es heißt, dass es über einen anderen Weg vertrieben wird.\n\n## Warum es eine PZN gibt — und was sie nicht beweist\n\nDie Pharmazentralnummer ist eine Bestellnummer für den Warenverkehr. Sie wird vergeben, damit ein Artikel im System bestellbar ist. Sie ist keine Zulassung und keine Qualitätsaussage. Ein Präparat ohne PZN ist nicht schlechter, es läuft nur nicht über diesen Bestellweg.\n\n## Drei Wege, auf denen ein Präparat zu Ihnen kommt\n\nErstens der klassische Handel: Apotheke vor Ort oder Drogeriemarkt, mit dem Vorteil, die Packung in die Hand nehmen zu können. Zweitens die Versandapotheke, die dieselbe Ware liefert, aber ebenfalls nur führt, was sie gelistet hat. Drittens der Direktvertrieb, bei dem der Hersteller ausschließlich über die eigene Seite verkauft.\n\nDer dritte Weg ist bei Nahrungsergänzung inzwischen verbreitet, und er verändert nur, wo man nachsieht — nicht, ob man nachsehen sollte. Praktisch heißt das: [beim Hersteller selbst nachsehen, wie der Bezug geregelt ist](https://buy-wego6.com/de/apotheke/), statt die Antwort aus Suchergebnissen, Foren und Screenshots zusammenzusetzen, deren Alter niemand kennt.\n\n## Was auf der Packung nachzulesen ist\n\nWEGO 6 ist ein Nahrungsergänzungsmittel in Kapselform. Angegeben sind 387 mg pro Kapsel, eine Kapsel täglich und dreißig Kapseln pro Packung, also genau ein Monat. Die Kapselhülle ist vegan. Der Hersteller nennt Apfelessig und Zink konkret und beschreibt den Rest als pflanzliche Inhaltsstoffe und Aminosäuren; die vollständige Liste steht auf der Packung.\n\nWichtiger als die einzelnen Namen ist, dass sie überhaupt einzeln dastehen. Wo eine Rezeptur nur als „Komplex“ ohne Mengenangaben auftaucht, kann niemand nachvollziehen, wovon wie viel enthalten ist.\n\n## Die Einnahme, wie sie dokumentiert ist\n\nEine Kapsel täglich, unzerkaut, mit zwei großen Gläsern Wasser, etwa 15 bis 30 Minuten vor oder direkt zu einer Mahlzeit. Die angegebene empfohlene Tagesmenge darf nicht überschritten werden.\n\n## Zum Schluss\n\nEin Nahrungsergänzungsmittel ergänzt eine ausgewogene, abwechslungsreiche Ernährung und ersetzt sie nicht. Für Kinder und Schwangere wird es nicht empfohlen. Wer stillt, Medikamente einnimmt oder eine Erkrankung hat, bespricht die Einnahme vorher in der Arztpraxis — das ist keine Formalie, sondern der kürzeste Weg zu einer klaren Antwort."}, {"title": "Deciding Whether a Supplement Is Doing Anything: a Four-Week Method", "anchor": "what a daily capsule is actually supposed to do", "target": "https://buy-wego6.com/uk/does-it-work/", "markdown": "# Deciding Whether a Supplement Is Doing Anything: a Four-Week Method\n\n*By Ruth Callaghan*\n\n\"Does it work\" is the most common question asked about any supplement and the least answerable in the abstract, because the person asking it rarely says what \"work\" would look like. Answer that first and the question stops being vague. Leave it unanswered and no amount of reading settles anything.\n\n## Start by writing down what you expect\n\nBefore ordering anything, put one sentence on paper: what would have to be different in four weeks for this to have been worth it? Vague hopes are unfalsifiable, which is precisely why they feel satisfying and prove nothing. A sentence you could be wrong about is the only kind worth testing.\n\nIt is also worth being clear about [what a daily capsule is actually supposed to do](https://buy-wego6.com/uk/does-it-work/) — a supplement is an addition to how you eat and organise your day, and expectations that ignore that part tend to end in disappointment aimed at the wrong thing.\n\n## Take a baseline before day one\n\nWhatever you intend to watch, record it for a few days *before* you start. Without a baseline you are comparing today against a memory, and memory reliably flatters whatever you have just spent money on.\n\nThree or four numbers are plenty, and they should be things you can capture in under a minute: how the mornings go, how consistent the meals were, how the week's movement looked, how you slept. Precision matters less than recording the same things the same way each time.\n\n## Change one thing at a time\n\nThis is where most self-assessments fall apart. A new capsule usually arrives in the same week as a new resolve, an emptier biscuit tin and a plan to walk more. If four things change together, no conclusion can be attached to any one of them.\n\nHold everything else steady for the first four weeks. It is less exciting and it is the only version that produces an answer.\n\n## Beware the first fortnight\n\nThe first two weeks of anything new carry an enthusiasm of their own. Attention alone changes behaviour, which is genuinely useful but is not evidence about a product. That is why the review point sits at four weeks rather than at ten days.\n\n## What the label actually declares\n\nWEGO 6 is a food supplement in capsule form. Each capsule declares 387 mg, the intake is one capsule a day, and a pack holds thirty capsules, which is what makes one pack equal one month. The capsule shell is vegan. The maker names apple cider vinegar and zinc specifically and describes the rest as plant-based ingredients and amino acids; the full list is on the pack.\n\nThe stated routine is one capsule daily, swallowed whole with two large glasses of water, roughly fifteen to thirty minutes before or with a meal. The stated daily intake must not be exceeded.\n\n## Decide in advance how you will stop\n\nWrite the stopping rule at the same time as the expectation: if nothing on your short list has moved by week four, that is the answer, and continuing out of sunk cost is the most expensive mistake available here. A pack that runs exactly one month makes that review point easy to schedule.\n\n## The sober part\n\nFood supplements are not a substitute for a balanced, varied diet, and this one is not recommended for children or pregnant women. If you are breastfeeding, taking medication or living with a medical condition, ask your doctor before starting — it is the shortest route to an answer about you rather than about an average."}, {"title": "What a Star Rating Can and Cannot Tell You", "anchor": "hold a product's own review page to the same standard", "target": "https://buy-wego6.com/uk/reviews/", "markdown": "# What a Star Rating Can and Cannot Tell You\n\n*By Gareth Milburn*\n\nA single number next to a product is the most-read and least-examined figure on the internet. It is not useless, but it answers a much narrower question than most people think, and the parts it hides are usually the parts that matter.\n\n## An average hides its own shape\n\nRatings for consumer products rarely cluster around the middle. They pile up at the top and the bottom, because the people most likely to write anything are the delighted and the aggrieved. Two products can share an identical average while one has a broad spread of moderate opinions and the other has two opposing camps and nothing between them. The average cannot tell them apart; the distribution can, and it is usually one click away.\n\n## Sample size, and the recency problem\n\nTwelve reviews and twelve hundred reviews should not carry the same weight, yet they are displayed identically. Read the count before the score.\n\nRecency matters just as much. Formulations change, ownership changes, fulfilment changes. A score built mostly from reviews two years old describes a product that may no longer exist in that form. Sort by newest before drawing any conclusion.\n\n## Who was able to write it\n\nVerified-purchase markers are imperfect but they are better than nothing. Reviews collected after an incentive, however mild, skew upward — that is a well-documented effect and not a conspiracy. Independent platforms and a maker's own site are answering different questions, and it is worth reading both while remembering which is which.\n\n## What to read instead of the number\n\nFour things settle more than any score. Is the dose per capsule stated, and per what — per capsule, per serving, per day? Is the full ingredient list there, or only a handful of appealing names? Does anything say who should not take it and how it is meant to be taken? And can you find out which company stands behind the product?\n\nIf two or more of those are missing, you are reading marketing. That is not automatically a problem — but it is a different thing from an assessment and should not carry the same weight in a decision.\n\nThe practical test takes two minutes: put what a review claims next to what the maker publishes and see whether they agree. It is fair to [hold a product's own review page to the same standard](https://buy-wego6.com/uk/reviews/), and if the numbers on the two pages contradict each other, you have learned something about the page that got them wrong.\n\n## What the pack itself declares\n\nWEGO 6 is a food supplement in capsule form: 387 mg per capsule, one capsule a day, thirty capsules per pack, vegan capsule shell. Apple cider vinegar and zinc are named specifically by the maker, with the rest described as plant-based ingredients and amino acids and the full list printed on the pack. The stated routine is one capsule daily, swallowed whole with two large glasses of water, about fifteen to thirty minutes before or with a meal, and the stated daily intake must not be exceeded.\n\nThose are checkable facts, which is exactly why they are the right things to compare a review against.\n\n## Finally\n\nA food supplement is an addition to a balanced, varied diet rather than a replacement for it, and it is not recommended for children or pregnant women. Anyone breastfeeding, taking medication or managing a medical condition should ask a doctor first."}, {"title": "Ranged, Own-Brand or Direct: Three Ways a Supplement Reaches You", "anchor": "check the maker's own route to buy", "target": "https://buy-wego6.com/uk/boots/", "markdown": "# Ranged, Own-Brand or Direct: Three Ways a Supplement Reaches You\n\n*By Dawn Ellery*\n\nIf you have searched for a supplement alongside the name of a high-street chemist and come away confused, the confusion is structural rather than personal. Products reach shoppers by three quite different routes, and each one produces a different answer to \"can I get it there\".\n\n## Ranged\n\nA brand persuades a retailer to list its product, and the retailer decides how many shops carry it and in what quantity. Being ranged is a commercial agreement — nothing more, nothing less. It is why a product can sit on a shelf in one town and be unobtainable in the next, and why a chain's website is the only system that knows the current answer.\n\n## Own-brand\n\nThe retailer commissions a product and puts its own name on it. This is the reason two boxes with different names can contain similar formulations, and the reason a familiar name on a shelf tells you who sells it rather than who made it.\n\n## Direct\n\nThe company behind the product sells only from its own site. No shop search will ever return it, however the query is phrased, because there is nothing to return. This route has become common in supplements, and by itself it says nothing bad about a product — it changes where you look, not whether you should look.\n\nThat is the practical reason to [check the maker's own route to buy](https://buy-wego6.com/uk/boots/) before spending another twenty minutes rephrasing a shop search. If a brand sells direct, the maker's own listing is the whole of the answer.\n\n## Settling it in two minutes\n\nSearch the retailer's own website rather than a search engine, since only their system knows their range. Use a branch stock checker if one exists. Ring the nearest branch — a minute on the phone beats an afternoon of guessing. Then check whether the maker sells direct; nearly every brand states its route to purchase somewhere on its own site.\n\n## One caution worth keeping\n\nWhere a product sells well, copies appear: photography lifted, the name altered by a character or two, a listing on a marketplace nobody recognises. Copies necessarily live somewhere other than the brand's own address, so starting at that address removes the whole category of problem before it starts.\n\n## What the label declares\n\nWEGO 6 is a food supplement in capsule form. Each capsule declares 387 mg, the intake is one capsule a day, and a pack holds thirty capsules — one month exactly. The capsule shell is vegan. The maker names apple cider vinegar and zinc specifically and describes the rest as plant-based ingredients and amino acids, with the full list on the pack. Individually named ingredients are the point: a formula given only as a \"blend\", with no quantity attached, cannot be assessed by anyone.\n\nThe stated routine is one capsule daily, swallowed whole with two large glasses of water, roughly fifteen to thirty minutes before or with a meal, and the stated daily intake must not be exceeded.\n\n## Buying without a counter\n\nA counter does two things you lose online: it hands you the box and it gives you someone to ask. Both are replaceable if you are deliberate — read the ingredient panel on screen before ordering rather than after, decide honestly whether a daily capsule fits your day, and keep the order confirmation somewhere you can find it, because every later question refers back to it.\n\nFood supplements are not a substitute for a balanced, varied diet and are not recommended for children or pregnant women. If you are breastfeeding, taking medication or managing a medical condition, ask your doctor before starting."}, {"title": "Vor-Ort-Apotheke, Versandapotheke, Herstellerseite: wo man wirklich nachsieht", "anchor": "die Angaben des Herstellers direkt nachlesen", "target": "https://buy-wego6.com/de/apotheke/", "markdown": "# Vor-Ort-Apotheke, Versandapotheke, Herstellerseite: wo man wirklich nachsieht\n\n*Von Jörg Steinbrecher*\n\nDie Frage „wo bekomme ich das?“ lässt sich bei Nahrungsergänzung in wenigen Minuten klären — allerdings nicht mit einer Suchmaschine, sondern mit drei gezielten Blicken. Suchergebnisse zeigen Seiten über ein Produkt. Was heute lieferbar ist, steht ausschließlich im Warensystem des jeweiligen Anbieters.\n\n## Erstens: die Apotheke vor Ort\n\nEin Anruf genügt. Das Team sieht im eigenen System nach, ob ein Artikel bestellbar ist, und sagt es geradeheraus. Das ist schneller als jede Recherche und verbindlicher, weil die Auskunft aus derselben Quelle kommt, aus der bestellt würde.\n\n## Zweitens: die Versandapotheke\n\nVersandapotheken führen ebenfalls nur, was sie gelistet haben. Deshalb gehört die Suche in deren eigenem Suchfeld zum Check — nicht die allgemeine Websuche mit dem Namen der Apotheke daneben. Findet ihr System nichts, ist die Frage für diesen Anbieter beantwortet.\n\n## Drittens: die Herstellerseite\n\nBei einem wachsenden Teil der Nahrungsergänzungsmittel läuft der Vertrieb ausschließlich direkt. Dann führt keine Händlersuche zum Ziel, egal wie oft man die Suchanfrage umformuliert. In diesem Fall hilft nur, [die Angaben des Herstellers direkt nachlesen](https://buy-wego6.com/de/apotheke/): Dort stehen Zusammensetzung, Packungsaufbau und die Bedingungen des Kaufs an einer Stelle, statt aus Bruchstücken unbekannten Alters zusammengesetzt zu werden.\n\n## Woran man Kopien erkennt\n\nWo ein Produkt gefragt ist, entstehen Listings mit übernommenen Fotos und leicht verändertem Namen. Sie liegen zwangsläufig woanders als die Adresse des Herstellers. Wer dort beginnt, umgeht dieses Problem vollständig.\n\n## Was auf der Packung steht\n\nWEGO 6 ist ein Nahrungsergänzungsmittel in Kapselform: 387 mg pro Kapsel, eine Kapsel täglich, dreißig Kapseln je Packung — also genau ein Monat. Die Kapselhülle ist vegan. Der Hersteller nennt Apfelessig und Zink konkret, der Rest ist als pflanzliche Inhaltsstoffe und Aminosäuren beschrieben; die vollständige Liste steht auf der Packung.\n\nEntscheidend ist weniger, welche Namen dort stehen, als dass sie einzeln dastehen. Eine Rezeptur, die nur als „Komplex“ ohne Mengenangabe auftaucht, ist für niemanden nachvollziehbar.\n\n## Die Einnahme\n\nEine Kapsel täglich, unzerkaut, mit zwei großen Gläsern Wasser, etwa 15 bis 30 Minuten vor oder direkt zu einer Mahlzeit. Die angegebene empfohlene Tagesmenge darf nicht überschritten werden. Praktisch bewährt sich ein fester Ankermoment — der erste Kaffee, das Zähneputzen —, weil eine Einnahme ohne festen Zeitpunkt binnen zwei Wochen wieder verschwindet.\n\n## Drei Notizen vor der Bestellung\n\nDas Startdatum, damit später klar ist, wie lange etwas läuft. Der Ankermoment, damit die Einnahme nicht täglich neu verhandelt wird. Und die Bestellbestätigung in einem eigenen Ordner im Postfach, weil jede spätere Rückfrage genau darauf zurückgreift.\n\n## Zum Schluss\n\nEin Nahrungsergänzungsmittel ergänzt eine ausgewogene, abwechslungsreiche Ernährung und ersetzt sie nicht. Für Kinder und Schwangere wird es nicht empfohlen. Wer stillt, Medikamente einnimmt oder eine Erkrankung hat, klärt die Einnahme vorher in der Arztpraxis."}, {"title": "Waarom een supplement soms alleen bij de fabrikant te koop is", "anchor": "de route van fabrikant naar deur", "target": "https://buy-wego6.com/nl/apotheek/", "markdown": "# Waarom een supplement soms alleen bij de fabrikant te koop is\n\n*Door Joost Kramer*\n\nWie een supplement niet bij de drogist of apotheek ziet liggen, denkt al snel dat er iets mis is. Meestal is er iets veel saaiers aan de hand: het product wordt gewoon niet via winkels verkocht.\n\n## Wat een winkelschap eigenlijk betekent\n\nEen plek in het schap is een handelsafspraak. Een keten beslist welke artikelen ze opneemt, in hoeveel filialen en in welke hoeveelheid. Die beslissing gaat over marges, ruimte en verwachte omzet. Ze zegt niets over de samenstelling van een product, en het ontbreken ervan dus ook niet.\n\n## Waarom directe verkoop is toegenomen\n\nBij directe verkoop houdt de fabrikant het contact met de klant zelf in handen: één plek waar de etiketgegevens, de verpakkingsopbouw en de voorwaarden staan, zonder tussenschakels die elk hun eigen versie van de informatie publiceren. Voor de koper verandert dat vooral waar je moet kijken. Het is dus zinnig om [de route van fabrikant naar deur](https://buy-wego6.com/nl/apotheek/) te volgen in plaats van de zoekopdracht met een winkelnaam nog eens te herhalen.\n\n## Hoe je in twee minuten uitsluit dat het in de winkel ligt\n\nGebruik het zoekveld van de keten zelf, niet een algemene zoekmachine — alleen hun systeem kent hun assortiment. Bel eventueel het filiaal. Kijk daarna of de fabrikant zelf levert. Verkoopt een merk uitsluitend via de eigen site, dan blijft elke winkelzoekopdracht per definitie leeg.\n\n## Let op nagemaakte listings\n\nBij producten die goed lopen verschijnen aanbiedingen met overgenomen foto's en een naam die net iets afwijkt. Die staan altijd ergens anders dan op het adres van de fabrikant zelf. Wie daar begint, heeft dat probleem niet.\n\n## Wat er op de verpakking staat\n\nWEGO 6 is een voedingssupplement in capsulevorm: 387 mg per capsule, één capsule per dag en dertig capsules per pot — precies één maand. De capsulehuls is plantaardig. De fabrikant noemt appelazijn en zink met naam en beschrijft de rest als plantaardige ingrediënten en aminozuren; de volledige lijst staat op de verpakking.\n\nDe inname zoals die is opgeschreven: één capsule per dag, heel doorslikken, met twee grote glazen water, ongeveer vijftien tot dertig minuten voor of tijdens een maaltijd. De aangegeven aanbevolen dagelijkse hoeveelheid mag niet worden overschreden.\n\n## Twee dingen die ik zelf noteer\n\nHet startmoment, zodat later duidelijk is hoe lang iets loopt. En het vaste tijdstip van inname, gekoppeld aan iets wat toch al elke dag gebeurt — koffie, tandenpoetsen — want zonder vast moment verdwijnt de inname binnen twee weken.\n\n## Tot slot\n\nEen voedingssupplement is een aanvulling op een gevarieerde, uitgebalanceerde voeding en geen vervanging daarvan. Het wordt niet aanbevolen voor kinderen en zwangere vrouwen. Wie borstvoeding geeft, medicijnen gebruikt of een aandoening heeft, overlegt eerst met de huisarts."}, {"title": "387 mg on a Label: What a Dose Figure Does and Doesn't Tell You", "anchor": "read the per-capsule figures next to the intake", "target": "https://buy-wego6.com/uk/does-it-work/", "markdown": "# 387 mg on a Label: What a Dose Figure Does and Doesn't Tell You\n\n*By Helen Ashworth*\n\nA milligram figure on a supplement pack looks like the most solid thing on the box. It is solid — but it answers a narrower question than it appears to, and reading it properly takes about thirty seconds.\n\n## Per what?\n\nThe first question is never \"how many milligrams\" but \"per what\". Per capsule, per serving, or per recommended daily intake? A pack that lists a figure per two-capsule serving is not comparable with one that lists it per capsule, and comparing the two numbers directly produces a conclusion that is simply wrong.\n\nOnce you know the unit, the second question is how many of those units a day the maker actually recommends. That pair — amount and frequency — is the whole of the dose. Either number alone tells you nothing, which is why it is worth taking the time to [read the per-capsule figures next to the intake](https://buy-wego6.com/uk/does-it-work/) rather than reading the largest figure on the packaging.\n\n## A total is not a recipe\n\nA single figure covering a whole formula does not say how it divides between the named ingredients. That is why individually listed ingredients matter more than an impressive total: where a formula appears only as a \"blend\" with one number attached, nobody can work out how much of what is in it — including whoever is writing about it.\n\n## What this pack states\n\nWEGO 6 is a food supplement in capsule form. Each capsule declares 387 mg, the intake is one capsule a day, and a pack holds thirty capsules, which makes one pack exactly one month. The capsule shell is vegan. The maker names apple cider vinegar and zinc specifically and describes the rest as plant-based ingredients and amino acids, with the full list on the pack.\n\nThe routine as written: one capsule daily, swallowed whole with two large glasses of water, roughly fifteen to thirty minutes before or with a meal. The stated recommended daily intake must not be exceeded — a line worth taking literally rather than as packaging boilerplate.\n\n## Why \"one a day, one month\" is convenient\n\nA pack that runs exactly a month gives you a natural review point. Note the start date, pick a fixed moment in the day and attach the capsule to something that already happens — the first coffee, brushing your teeth. An intake with no fixed moment disappears within a fortnight, and then the question of whether anything changed can never be answered, because the thing was never done consistently in the first place.\n\n## The part the number cannot cover\n\nA dose figure describes what is in a capsule. It says nothing about how the rest of your day is arranged, and that is where most of the outcome lives — meals you can repeat on a chaotic Tuesday, water, movement that needs no appointment, and sleep, the one everybody economises on.\n\nFood supplements are not a substitute for a balanced, varied diet, and this one is not recommended for children or pregnant women. If you are breastfeeding, taking medication or managing a medical condition, ask your doctor before starting."}];
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-copy]");
+  if (!b) return;
+  const a = ART[+b.dataset.i];
+  const text = b.dataset.copy === "title" ? a.title
+             : b.dataset.copy === "anchor" ? a.anchor
+             : b.dataset.copy === "target" ? a.target
+             : a.markdown;
+  navigator.clipboard.writeText(text);
+  const old = b.textContent;
+  b.textContent = "copied";
+  setTimeout(() => (b.textContent = old), 1200);
 });
-</script></body></html>
+</script>
+</body>
+</html>
+
